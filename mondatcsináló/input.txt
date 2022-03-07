@@ -1,0 +1,8 @@
+Józsi,Géza,Pista,Pisti,Lilla,A cicánk,A kutyánk,Anna,Anya,Bálint,Valaki,Senki,Joe,Dávid,A Maffia vezér,Czinegeplayz,Pipo,Beni,Kuhár Bence,Áron,Apa,Papa,Sándor,Béla,Dani,Tihanyi,Szabi,Mikó,Szalai,Dj. Sakkos,Tibi,Apáti,Cirmike,Emanuel,Tiborc,null
+az ágyban,a kertben,a nappaliban,a hálószobában,Minecraft-ban,a pincében,a padlásban,a tetőn,az autóban,a garázsban,Dorogon,Lajosmizsén,a suliban,a Papánál,otthon,a boltban,Esztergomban,Náregyházán,Níregyházán,Félegyházán,a játszótéren,Kispesten,iPordól,otthon,a,Gombán,null
+vizet,kenyeret,almát,biciklit,autót,zenét,kutyát,érmét,ebédet,vacsorát,az áramot,sajtot,reggelit,bögrét,tetőt,memoritert,játékautót,papucsot,videót,csomagot,Gyümölcs levet,Pizzát,cigit,programozást,Netflixet,krumplit,filmeket,,paprikáskrumplit,a Pataky-bol,null
+iszik,szlopál,eszik,zabál,szerel,vezet,hallgat,sétáltat,vásárol,takarít,főz,süt,elszívja,rág,ölelget,vár,néz,pucol,reszel,néz,kérdez ki,olvas,Készít,polgárőrködik,szív,süt,craftol,gyárt,tanít,ken,lop,játszik,lő,null
+ki?
+hol?
+mivel?
+Mit csinál?
