@@ -9,4 +9,4 @@ ki = words[0][random.randint(0, len(words[0]) - 2)]
 hol = words[1][random.randint(0, len(words[1]) - 2)]
 mivel = words[2][random.randint(0, len(words[2]) - 2)]
 mit = words[3][random.randint(0, len(words[3]) - 2)]
-print(f"{ki} {hol} {mivel} {mit}.\n")
+print(f"{ki} {hol} {mivel} {mit}.")
