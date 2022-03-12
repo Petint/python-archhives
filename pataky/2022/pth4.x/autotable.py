@@ -4,7 +4,7 @@ class Table:
 
     def getfirstrow(self) -> str:
         firstrow = '┌─'
-        for __i in range(len(self.tabledata) - 1):
+        for __i in range(len(self.tabledata[0]) - 1):
             firstrow += '┬─'
         firstrow += '┐\n'
         return firstrow
@@ -12,20 +12,20 @@ class Table:
     def getrow(self, index: int) -> str:
         row = ''
         for __i in range(len(self.tabledata[index])):
-            row += f'│{__i}'
+            row += f'│{self.tabledata[index][__i]}'
         row += '│\n'
         return row
 
     def getlastrow(self) -> str:
         lastrow = '└─'
-        for __i in range(len(self.tabledata) - 1):
+        for __i in range(len(self.tabledata[0]) - 1):
             lastrow += '┴─'
         lastrow += '┘\n'
         return lastrow
 
     def getseprow(self) -> str:
         seprow = '├─'
-        for __i in range(len(self.tabledata) - 1):
+        for __i in range(len(self.tabledata[0]) - 1):
             seprow += '┼─'
         seprow += '┤\n'
         return seprow
@@ -35,7 +35,8 @@ class Table:
         str_table += self.getfirstrow()
         for x in range(len(self.tabledata)):
             str_table += self.getrow(x)
-            str_table += self.getseprow()
+            if x < len(self.tabledata) - 1:
+                str_table += self.getseprow()
         str_table += self.getlastrow()
         return str_table
 
