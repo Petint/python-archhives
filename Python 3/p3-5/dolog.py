@@ -15,7 +15,9 @@ def masodpercbol_ido(secs: int) -> str:
     ora = secs // 3600
     perc -= ora * 60
     masodperc = secs - 3600 * ora - 60 * perc
-    napido = f'{ora}:{perc}:{masodperc}'
+    nap = ora // 24
+    ora %= 24
+    napido = f'{nap}:{ora}:{perc}:{masodperc}'
     return napido
 
 
