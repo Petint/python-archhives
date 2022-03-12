@@ -1,3 +1,3 @@
 # python-archhives
-## A can of snakes.
+## My can of snakes.
 *And IDE stuffs.*<br>
