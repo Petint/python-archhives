@@ -31,3 +31,27 @@ for x in mystring:
         letters += 1
 print(f"digits:{digits}, letters: {letters}")
 
+n = int(input("N-ter de limit: "))
+
+primelist = []
+i = 2
+
+
+"""def isprime(_i: int) -> bool:
+    prime = True
+    for iDx in range(2, _i):
+        if prime _i % iDx == 0:
+            prime = False
+            break
+    return prime
+
+
+while True:
+    if isprime(i):
+        primelist.append(i)
+    i += 1
+    if i == n: 
+        break
+print(f"prime numbas belo' {n}:")
+print(primelist)"""
+
