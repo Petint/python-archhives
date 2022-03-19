@@ -20,3 +20,14 @@ i = 0
 while i > len(ddd):
     print(ddd[i])
     i += 1
+
+mystring = input("e: ")
+digits = 0
+letters = 0
+for x in mystring:
+    if x.isdigit():
+        digits += 1
+    if x.isalpha():
+        letters += 1
+print(f"digits:{digits}, letters: {letters}")
+
