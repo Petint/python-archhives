@@ -55,3 +55,18 @@ while True:
 print(f"prime numbas belo' {n}:")
 print(primelist)"""
 
+basket = {
+    "apple": 20,
+    "pear": 10,
+    "banana": 30,
+    "chingus": 69
+}
+friut = input("Enter an fuitr: ")
+for item in basket.keys():
+    if item == friut:
+        print(f"the basketball allready havez {basket[item]} {item}(e)s.")
+    else:
+        nice = int(input("how mani fruztez? "))
+        basket[friut] = nice
+        for item2 in basket:
+            print(item2, basket[item2], sep=": ")
