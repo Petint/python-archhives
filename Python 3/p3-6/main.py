@@ -1,16 +1,22 @@
-# This is a sample Python script.
+# mynum = int(input("Enter an intiger: "))
+mynum = 3
+while mynum > 1:
+    if mynum % 3 == 0:
+        mynum /= 3
+    else:
+        mynum += 1
+    print(mynum)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+run = True
+i = 0
+while run:
+    print(i)
+    i += 1
+    if i > 5:
+        run = not run
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+ddd = ["DAT", "MD", "DCC", "CD", "CC", "LP", "MP3", "FM"]
+i = 0
+while i > len(ddd):
+    print(ddd[i])
+    i += 1
