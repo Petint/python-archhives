@@ -1,12 +1,16 @@
 class Table:
     """Easy way of making unicode tables"""
-    def __init__(self, table_data: 'list[list]'):
+
+    def __init__(self, table_data: 'list[list]', length: int = 5):
         self.tabledata = table_data
+        self.item_length = length
 
     def getfirstrow(self) -> str:
-        firstrow = '┌───'
+        firstrow = '┌'
+        firstrow += self.item_length * "─"
         for __i in range(len(self.tabledata[0]) - 1):
-            firstrow += '┬───'
+            firstrow += '┬'
+            firstrow += self.item_length * "─"
         firstrow += '┐\n'
         return firstrow
 
@@ -14,25 +18,27 @@ class Table:
         row = ''
         for __i in range(len(self.tabledata[index])):
             row += '│'
-            if len(str(self.tabledata[index][__i])) < 3:
-                row += " "
             row += f'{self.tabledata[index][__i]}'
-            if len(str(self.tabledata[index][__i])) < 2:
-                row += " "
+            if len(str(self.tabledata[index][__i])) < self.item_length:
+                row += (self.item_length - len(str(self.tabledata[index][__i]))) * " "
         row += '│\n'
         return row
 
     def getlastrow(self) -> str:
-        lastrow = '└───'
+        lastrow = '└'
+        lastrow += self.item_length * "─"
         for __i in range(len(self.tabledata[0]) - 1):
-            lastrow += '┴───'
+            lastrow += '┴'
+            lastrow += self.item_length * "─"
         lastrow += '┘\n'
         return lastrow
 
     def getseprow(self) -> str:
-        seprow = '├───'
+        seprow = '├'
+        seprow += self.item_length * "─"
         for __i in range(len(self.tabledata[0]) - 1):
-            seprow += '┼───'
+            seprow += '┼'
+            seprow += self.item_length * "─"
         seprow += '┤\n'
         return seprow
 
