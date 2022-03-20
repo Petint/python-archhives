@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\pataky",
     "\\pataky\\2022",
-    "\\pataky\\2022\\pth4.x"
+    "\\pataky\\2022\\pth4.x",
+    "\\PetintLib"
   ],
-  "SelectedNode": "\\pataky\\2022\\pth4.x\\auto-table.py",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
