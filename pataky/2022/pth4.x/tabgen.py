@@ -1,4 +1,4 @@
-from autotable import Table
+from PetintLib.autotable import Table
 
 a = [
     [' ', ' ', ' ']
