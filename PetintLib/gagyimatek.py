@@ -1,5 +1,5 @@
 """
-Gagyimatek V2.0.1
+Gagyimatek V2.0.2
 A négy alapművelet + hatványozás gagyi változata:
 Csak össeadással meg kivonással.
 """
@@ -41,7 +41,8 @@ def oszt(a, b):
 
 def hatvany(a, b):
     """Az első szám hatványraemelése (a^b)"""
-    if b == 0: return 1
+    if b == 0:
+        return 1
     _eredmeny = a
     for x in range(b - 1):
         _eredmeny = szorzas(_eredmeny, a)
