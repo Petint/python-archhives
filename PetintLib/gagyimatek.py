@@ -10,19 +10,26 @@ __all__ = ['osszead', 'kivon', 'szorzas', 'oszt', 'hatvany']
 
 
 def osszead(a, b):
-    """A két beadott szám össege
+    """
+    A két beadott szám össege
     (a+b)
     """
     return a + b
 
 
 def kivon(a, b):
-    """A két beadott szám külombsége (a-b)"""
+    """
+    A két beadott szám külombsége
+    (a-b)
+    """
     return a - b
 
 
 def szorzas(a, b):
-    """Összeszoroz két számot, de gagyin (a*b)"""
+    """
+    Összeszoroz két számot, de gagyin
+    (a*b)
+    """
     _eredmeny = 0
     for x in range(a):
         _eredmeny = osszead(_eredmeny, b)
@@ -30,7 +37,9 @@ def szorzas(a, b):
 
 
 def oszt(a, b):
-    """A világ legrosszabb osztómetódusa (a/b)"""
+    """
+    A világ legrosszabb osztómetódusa (a/b)
+    """
     if b == 0: raise TypeError("Nullahiba")
     _eredmeny = 0
     while a > 0:
@@ -40,7 +49,9 @@ def oszt(a, b):
 
 
 def hatvany(a, b):
-    """Az első szám hatványraemelése (a^b)"""
+    """
+    Az első szám hatványraemelése (a^b)
+    """
     if b == 0:
         return 1
     _eredmeny = a
