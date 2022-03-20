@@ -3,30 +3,35 @@ class Table:
         self.tabledata = table_data
 
     def getfirstrow(self) -> str:
-        firstrow = '┌─'
+        firstrow = '┌───'
         for __i in range(len(self.tabledata[0]) - 1):
-            firstrow += '┬─'
+            firstrow += '┬───'
         firstrow += '┐\n'
         return firstrow
 
     def getrow(self, index: int) -> str:
         row = ''
         for __i in range(len(self.tabledata[index])):
-            row += f'│{self.tabledata[index][__i]}'
+            row += '│'
+            if len(str(self.tabledata[index][__i])) < 3:
+                row += " "
+            row += f'{self.tabledata[index][__i]}'
+            if len(str(self.tabledata[index][__i])) < 2:
+                row += " "
         row += '│\n'
         return row
 
     def getlastrow(self) -> str:
-        lastrow = '└─'
+        lastrow = '└───'
         for __i in range(len(self.tabledata[0]) - 1):
-            lastrow += '┴─'
+            lastrow += '┴───'
         lastrow += '┘\n'
         return lastrow
 
     def getseprow(self) -> str:
-        seprow = '├─'
+        seprow = '├───'
         for __i in range(len(self.tabledata[0]) - 1):
-            seprow += '┼─'
+            seprow += '┼───'
         seprow += '┤\n'
         return seprow
 
@@ -42,19 +47,7 @@ class Table:
 
 
 if __name__ == "__main__":
-    test_data = [
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    ]
+    size = 30
+    test_data = [[x * size + y for y in range(size)] for x in range(size)]
     table1 = Table(test_data)
     print(table1.make())
