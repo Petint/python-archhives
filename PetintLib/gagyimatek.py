@@ -1,5 +1,5 @@
 """
-Gagyimatek V2.0.2
+Gagyimatek 2.0.2
 A négy alapművelet + hatványozás gagyi változata:
 Csak össeadással meg kivonással.
 """
@@ -47,13 +47,3 @@ def hatvany(a, b):
     for x in range(b - 1):
         _eredmeny = szorzas(_eredmeny, a)
     return _eredmeny
-
-
-if __name__ == "__main__":
-    print(osszead(5, 5))
-    print(kivon(5, 5))
-    print(szorzas(5, 5))
-    print(oszt(5, 5))
-    print(hatvany(5, 5))
-    print(__all__)
-    input()

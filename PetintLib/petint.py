@@ -1,9 +1,3 @@
-"""
-PetintLib 1.2.2
-A saját python modul hasznos metódusokkal
-és konstansokkal
-"""
-
 constants = {
     "tnt": 46,
     "weed": 420,
@@ -95,7 +89,3 @@ def randomfoatlist(numofnums: int) -> 'list[float]':
     for x in range(numofnums):
         out.append(random.uniform(-10000, 10000))
     return out
-
-
-if __name__ == '__main__':
-    print(filetofloat('asd'))

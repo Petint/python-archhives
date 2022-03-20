@@ -52,10 +52,3 @@ class Table:
                 str_table += self.getseprow()
         str_table += self.getlastrow()
         return str_table
-
-
-if __name__ == "__main__":
-    size = 30
-    test_data = [[x * size + y for y in range(size)] for x in range(size)]
-    table1 = Table(test_data)
-    print(table1.make())
