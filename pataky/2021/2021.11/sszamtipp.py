@@ -1,6 +1,6 @@
 # szamkitalalo.py pbq 20211110
 # gondoltam egy számot 1 és 5 közt. Ki tudod találni?
-from petint import du_inpt_int as rd
+from PetintLib.petint import du_inpt_int as rd
 from random import randint as randy
 
 rar = randy(1,5)

@@ -9,17 +9,17 @@ Ez a program TÖKÉLETES!!!!
 # Importing data from a file
 def ImportData(FileName):
     print("Importind data... ",end="") # Report to DU
-    global ImputFileError
+    global inputFileError
     try:
-        ImputFile = open('./'+FileName,"rt") # Get file
-    except: # If Imput file doesn't exist
+        inputFile = open('./'+FileName,"rt") # Get file
+    except: # If input file doesn't exist
         print(f"Error, {FileName} can't be found")
-        ImputFileError = True
+        inputFileError = True
         input()
         exit()
     #return file data as a List of floats
-    FileData = ImputFile.read() # Store file contents
-    del ImputFile # The variable 'ImputFlie' is no longer needed
+    FileData = inputFile.read() # Store file contents
+    del inputFile # The variable 'inputFlie' is no longer needed
     FileDataList = FileData.split('\n')
     # FileDataList = FileDataList.split(',') Broken, don't use.
     del FileData # Delete variable
@@ -33,10 +33,10 @@ def ImportData(FileName):
 
 
 try: # Import numbers
-    ImputFileError = False # To keep track of a possible file error
+    inputFileError = False # To keep track of a possible file error
     Nums = ImportData("out.txt") # Importing nums
 except: # File error detection
-    if ImputFileError: # Stop code whitout giving false formatting-type error.
+    if inputFileError: # Stop code whitout giving false formatting-type error.
         exit()
     print("\nError, File is emty, or is not correctly formatted.\n Please make sure you ony have a single number in a line and that you don't have any empty lines.")
     input()

@@ -1,5 +1,4 @@
 # pbq 20201110 10a
-import petint
 x = "dfd"
 while x != "":
     x = input("Adj egy számot:  ")
