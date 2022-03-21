@@ -31,8 +31,16 @@ Generálj 50 véletlen pozitív egész háromjegyű számot és azokat írd ki e
 Minden szám külön sorba kerüljön.
 """
 random_list = [randint(100, 999) for _ in range(50)]
-numbers = open(os.path.join('./' + 'szamok.txt'), 'wt')
+numbers = open(os.path.join('szamok.txt'), 'wt')
 for n in random_list:
-    numbers.write(str(n)+';')
+    numbers.write(str(n)+'\n')
 numbers.close()
+
+"""
+05-12 Páratlan számok fájlba
+Feladat leírás:
+Olvass be egész számokat addig amíg 0-át nem írnak be.
+Ha páratlan számot adtak meg, akkor azt írd ki a "paratlan.txt" fájlba, mindegyik számot külön sorba.
+Ha nem egész számot adnak meg, vagy nem páratlan a szám, akkor azt hagyjuk figyelmen kívül és kérjük a következőt.
+"""
 
