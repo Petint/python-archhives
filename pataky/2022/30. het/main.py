@@ -1,16 +1,12 @@
-# This is a sample Python script.
+"""File handling"""
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 05-01
+"""
+Olvasd be a 'magyar-koltok-irok.txt' utf-8 kódolású szövegfájl tartalmát és írd azt ki a konzolra.
+"""
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+path = "koltok.txt"
+koltok_file = open(path, 'rt', encoding="utf-8")
+koltok_file_data = koltok_file.read()
+koltok_file.close()
+print(koltok_file_data)
