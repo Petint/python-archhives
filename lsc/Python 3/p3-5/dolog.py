@@ -1,6 +1,6 @@
 def stuffs():
     try:
-        x = float(input('Addj meg egy számot: '))
+        x = float(input('Adj meg egy számot: '))
     except ValueError:
         print("Nem számot adtál meg.")
     else:

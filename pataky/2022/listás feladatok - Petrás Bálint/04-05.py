@@ -2,7 +2,7 @@ def duget(l: int) -> 'list[int]':
     nums = []
     while len(nums) < 5:
         try:
-            n = int(input("Addj meg egy egész számot: "))
+            n = int(input("Adj meg egy egész számot: "))
         except ValueError:
             print("Nem (megfelelő) számot adtál meg.")
         else:

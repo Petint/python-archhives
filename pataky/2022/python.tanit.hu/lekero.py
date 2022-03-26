@@ -3,7 +3,7 @@ import feladatok
 
 def leker(du: str):
     if du == "01-01":
-        feladatok.Szovegszam(input("Addj meg egy számot: "))
+        feladatok.Szovegszam(input("Adj meg egy számot: "))
     elif du == "01-02":
         feladatok.Szamoktipusa(input("Adj meg egy számot: "))
     elif du == "01-02b":
@@ -55,26 +55,26 @@ def leker(du: str):
     elif du == "01-24":
         feladatok.kiertekeles(feladatok.veletlenszaz())
     elif du == "01-25":
-        feladatok.veletlenatlag(input("Addj meg egy számot: "))
+        feladatok.veletlenatlag(input("Adj meg egy számot: "))
     elif du == "01-26":
         feladatok.szamolas()
     elif du == "02-01":
-        print(feladatok.parity(int(input("Addj meg egy számot: "))))
+        print(feladatok.parity(int(input("Adj meg egy számot: "))))
     elif du == "02-02":
-        n1, n2 = input("Addj meg egy számot: "), input("Addj meg egy számot: ")
+        n1, n2 = input("Adj meg egy számot: "), input("Adj meg egy számot: ")
         try:
             print("A két szám szorzata:",feladatok.szorzat(n1, n2))
         except ValueError:
             print("Nem számot adtál meg.")
     elif du == "02-03":         # nice
-        print("A kisebb szám duplája:", feladatok.kisebb_dupla(int(input("Addj meg egy számot: ")), int(input("Addj meg egy számot: "))))
+        print("A kisebb szám duplája:", feladatok.kisebb_dupla(int(input("Adj meg egy számot: ")), int(input("Adj meg egy számot: "))))
     elif du == "02-04":
         try:
-            print("Magánhangzó") if feladatok.maganhangzo(input("Addj meg egy betűt: ")) else print("Mássalhangzó")
+            print("Magánhangzó") if feladatok.maganhangzo(input("Adj meg egy betűt: ")) else print("Mássalhangzó")
         except ValueError:
             print("Nem egy betűt adtál meg!")
     elif du == "02-05":
-        feladatok.paros_paratlan(int(input('Addj meg egy számot: ')))
+        feladatok.paros_paratlan(int(input('Adj meg egy számot: ')))
     elif du == "02-06":
         print("02-06")
     elif du == "02-07":
