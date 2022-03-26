@@ -44,6 +44,9 @@ def income_calc():
                       Bill=[36, 19525])
     youngest = 1000000000
     youngest_name = ''
+    maz_inmok = -1
+    mozt_inkommen = ''
+
     key_list = list(age_income.keys())
     vaule_list = list(age_income.values())
 
@@ -51,7 +54,13 @@ def income_calc():
         if i[0] < youngest:
             youngest = i[0]
             youngest_name = key_list[vaule_list.index(i)]
+        if i[1] > maz_inmok:
+            maz_inmok = i[1]
+            mozt_inkommen = key_list[vaule_list.index(i)]
     print(youngest_name, 'Is rhe zungest')
+    print(mozt_inkommen)
+    ages = [vaule_list[i][0] for i in range(vaule_list.__len__())]
+    print(sum(ages) / len(ages))
 
 
 
