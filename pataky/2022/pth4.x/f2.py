@@ -10,6 +10,6 @@ def nagyobbtripla(a: int, b: int) -> int:
     return 3 * max(a, b)
 
 
-ssf = int(input('Addj meg egy szamot: '))
+ssf = int(input('Adj meg egy szamot: '))
 parosparatlan(ssf)
 print(nagyobbtripla(6, 9))

@@ -29,7 +29,7 @@ def kitalalosdi():
     _secret = randint(1,5)
     run = True
     while run:
-        _du = int(input("Addj meg egy számot (1-5): "))
+        _du = int(input("Adj meg egy számot (1-5): "))
         if _du == _secret:
             print("Ez volt a helyes szám.")
             run = False

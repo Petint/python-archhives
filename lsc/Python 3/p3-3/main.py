@@ -1,6 +1,6 @@
 import csv
 
-"""vaule = input("Addj meg egy egész számot: ")
+"""vaule = input("Adj meg egy egész számot: ")
 if vaule.isnumeric():
     vaule = int(vaule)
     print(f"{vaule} fele {vaule / 2}")
@@ -8,7 +8,7 @@ else:
     print("Nem egész számot adtál meg.")"""
 
 """try:
-    vaule = input("Addj meg egy egész számot: ")
+    vaule = input("Adj meg egy egész számot: ")
 except ValueError:
     print("Nem egész számot adtál meg.")
 except:

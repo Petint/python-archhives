@@ -112,7 +112,7 @@ def Dupla():
     """
 
     try:
-        num = int(input("Addj meg egy számot: "))
+        num = int(input("Adj meg egy számot: "))
     except ValueError:
         raise TypeError("Nem számot adtál meg")
     return 2 * num
@@ -133,7 +133,7 @@ def Legkisebb(n: int) -> int:
     """
         Kérjük be hány számot akar megadni a felhasználó majd annyi számot beolvastatunk és aztán kiírjuk a legkisebbet.
     """
-    nums = [int(input("Addj meg egy számot: ")) for _ in range(n)]
+    nums = [int(input("Adj meg egy számot: ")) for _ in range(n)]
     _min = nums[0]
     for num in nums:
         if _min > num:
@@ -227,7 +227,7 @@ def szam_tip():
     secnum = randint(0, 9)
     # print(secnum)
     for x in range(5):
-        i = int(input("Addj meg egy számot: "))
+        i = int(input("Adj meg egy számot: "))
         if i == secnum:
             print('Talált!')
             break
@@ -243,7 +243,7 @@ def primszam():
     """
         Olvassunk be egy számot és írjuk ki hogy prímszám-e.
     """
-    num = int(input("Addj meg egy számot: "))
+    num = int(input("Adj meg egy számot: "))
     ostok = 0
     for x in range(1, num + 1):
         if num % x == 0:
@@ -274,7 +274,7 @@ def szamsor():
         A végén írjuk ki melyik a legnagyobb és melyik a legkisebb.
         Írjuk ki a számok összegét és átlagát.
     """
-    nums = [int(input("Addj meg egy számot: ")) for _ in range(5)]
+    nums = [int(input("Adj meg egy számot: ")) for _ in range(5)]
     min_max_atlag(nums)
 
 
@@ -285,8 +285,8 @@ def abcsor():
         Pl. a végén ezt írd ki: Dávid előbb van a névsorban mint Márton.
         Figyeljünk a magyar ékezetes kis és nagybetűk helyes sorrendjére is.
     """
-    nev1 = input("Addj meg egy nevet: ")
-    nev2 = input("Addj meg még egy nevet: ")
+    nev1 = input("Adj meg egy nevet: ")
+    nev2 = input("Adj meg még egy nevet: ")
     if nev1 < nev2:
         print(f"{nev1} előbb van a névsorban mint {nev2}")
     else:
@@ -299,7 +299,7 @@ def nevsor():
         HIBA: Rossul kezeli az ékezetes betűket
         Olvass be öt nevet és írd ki a névsorban legelsőt.
     """
-    nevek: 'list[str]' = [input('Addj meg egy nevet: ') for _ in range(5)]
+    nevek: 'list[str]' = [input('Adj meg egy nevet: ') for _ in range(5)]
     legkisebb = min(nevek)
     print(legkisebb)
 
@@ -312,7 +312,7 @@ def szovegsorozat():
     run = True
     texts = 0
     while run:
-        txt = input("Addj meg egy szöveget (üres szöveg a befejezéshez): ")
+        txt = input("Adj meg egy szöveget (üres szöveg a befejezéshez): ")
         if txt == "":
             run = False
         else:
@@ -328,7 +328,7 @@ def szamokfele():
     """
     while True:
         try:
-            num = int(input('Addj meg egy számot: '))
+            num = int(input('Adj meg egy számot: '))
         except ValueError:
             print("Nem számot adtál meg!")
         else:
@@ -381,8 +381,8 @@ def szamolas():
         A hányadost csak akkor írjuk ki, ha az osztó nem nulla.
     """
     try:
-        a = int(input("Addj meg egy számot: "))
-        b = int(input("Addj meg egy számot: "))
+        a = int(input("Adj meg egy számot: "))
+        b = int(input("Adj meg egy számot: "))
     except ValueError:
         print("Nem egész számot adtál meg!")
         return None
