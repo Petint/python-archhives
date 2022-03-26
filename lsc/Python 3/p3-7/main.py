@@ -21,6 +21,41 @@ def chi9gu5():
     print(not (p or q) == (not p and not q))
 
 
+"""
+BinOps:
+and
+or
+is
+not
+==
+!=
+<<
+<<=
+>>
+>>=
+=, +=, -=, *=, /=
+&
+|
+"""
+
+
+def income_calc():
+    age_income = dict(Mari=[31, 21800], Joseph=[56, 450000], Masha=[22, 745740], Vadim=[32, 636894], Marci=[16, 0],
+                      Bill=[36, 19525])
+    youngest = 1000000000
+    youngest_name = ''
+    key_list = list(age_income.keys())
+    vaule_list = list(age_income.values())
+
+    for i in vaule_list:
+        if i[0] < youngest:
+            youngest = i[0]
+            youngest_name = key_list[vaule_list.index(i)]
+    print(youngest_name, 'Is rhe zungest')
+
+
+
 if __name__ == '__main__':
     pyramid()
     chi9gu5()
+    income_calc()
