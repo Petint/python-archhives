@@ -63,7 +63,6 @@ def income_calc():
     print(sum(ages) / len(ages))
 
 
-
 if __name__ == '__main__':
     pyramid()
     chi9gu5()
