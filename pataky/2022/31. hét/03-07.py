@@ -6,7 +6,7 @@ b)  Kiírjuk a szöveg hosszát
 c)  Kiírjuk a szöveg nagybetűs változatát
     """)
     du_in = input("Válassz [a, b, c]: ")
-    opt = {'a':1,'b':1,'c':3}
+    opt = {'a':1,'b':2,'c':3}
     return opt[du_in]
 
 
@@ -20,20 +20,24 @@ def du_text():
 
 
 def abetu(txt: str):
-    pass
+    print("Az adott szöveg \'a\'-betű tartalma",end=": ")
+    print(txt.lower().count('a'))
 
 def szhossz(txt: str):
-    pass
+    print("A szöveg hossza",end=": ")
+    print(len(txt))
 
 
 def nagybetu(txt: str):
-    pass
+    print("A nagybetüs verzió",end=": ")
+    print(txt.upper())
 
 
 def menu():
     print('A program bekér egy szöveget és a választásod alapján kiír ezt-azt a szövegről. Üres szövegre leáll.\n')
     du_txt = du_text()
     if du_txt is None:
+        print('Viszlát!')
         exit()
     else:
         dun = ask_du()
@@ -45,4 +49,5 @@ def menu():
             nagybetu(du_txt)
 
 if __name__ == "__main__":
-    menu()
+    while True:
+        menu()
