@@ -1,2 +1,1 @@
-while True:
-    print("Verified?", end="\t")
+print("Test 2")
