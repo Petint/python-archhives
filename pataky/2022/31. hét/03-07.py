@@ -7,7 +7,11 @@ c)  Kiírjuk a szöveg nagybetűs változatát
     """)
     du_in = input("Válassz [a, b, c]: ")
     opt = {'a': 1, 'b': 2, 'c': 3}
-    return opt[du_in]
+    try:
+        return opt[du_in]
+    except KeyError:
+        print("Nincs ilyen opcio.")
+        pass
 
 
 def du_text():
