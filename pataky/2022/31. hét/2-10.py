@@ -7,5 +7,7 @@ while tipp is not secret:
         tipp = int(input('Tippelj 1-5 kozott: '))
     except ValueError:
         print('Nem szamot adtal meg!')
+    if tipp is not secret:
+        print('nem talalt')
 
 print('Eltalaltad a szamot.\nViszlat!')
