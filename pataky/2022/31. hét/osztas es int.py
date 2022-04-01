@@ -1,0 +1,11 @@
+x, y = 420, 69
+print('A két szám', end=': ')
+print(x, y)
+print('Intiger osztás', end=': ')
+print(x // y)
+print('Sima osztás intigerré alakítva', end=': ')
+print(int(x / y))
+print('Sima osztás', end=': ')
+print(x / y)
+print('\"Emeletes\" tört alak', end=': ')
+print(x, y, sep='/')
