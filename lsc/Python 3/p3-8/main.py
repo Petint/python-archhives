@@ -21,14 +21,14 @@ while not game_over:
         if event.type == pygame.QUIT:
             game_over = False
         if event.type == pygame.event:
-            if pygame.key == "a":
-                x1_change = -1
-            if pygame.key = "d"
-                x1_change = 1
-            if pygame == w:
-                y1_change = -1
-            if game_over == 's':
-                y1_change = 1
+            if event.key == pygame.KEYUP:
+                x1_change = -snake_block
+            if event.key == pygame.KEYDOWN:
+                x1_change = snake_block
+            if event.key == pygame.K_LEFT:
+                y1_change = -snake_block
+            if event.key == pygame.K_RIGHT:
+                y1_change = snake_block
         x1 += x1_change
         y1 += y1_change
         dis.fill(black)
