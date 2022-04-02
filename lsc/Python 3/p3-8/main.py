@@ -1,3 +1,5 @@
+import time
+
 import pygame
 
 pygame.init()
@@ -18,6 +20,7 @@ pygame.display.update()
 game_over = False
 snake_block = 10
 font_stlye = pygame.font.SysFont("Arial", 50)
+# pygame.time.Clock.__init__()
 
 
 def massage(msg: str, color: 'tuple(int, int, int)'):
@@ -25,7 +28,7 @@ def massage(msg: str, color: 'tuple(int, int, int)'):
 
 
 while not game_over:
-    for event in pygame:
+    for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game_over = False
         if event.type == pygame.event:
@@ -38,12 +41,13 @@ while not game_over:
             if event.key == pygame.K_RIGHT:
                 y1_change = snake_block
     if x1 >= 400 or x1 < 0 or y1 > 300 or y1 < 0:
-        dis.blit(massage("You stinc", 200, 150))
+        dis.blit(massage("You stincc", white), 200, 150)
+        time.sleep(2)
         game_over = True
     x1 += x1_change
     y1 += y1_change
     dis.fill(black)
     pygame.draw.rect(dis, blue, [200, 150, 10, 10])
-    pygame.clock.tick(30)
+    # pygame.time.Clock.tick(30)
 pygame.quit()
 quit()
