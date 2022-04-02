@@ -1,5 +1,5 @@
 import time
-
+import random
 import pygame
 
 pygame.init()
@@ -52,5 +52,6 @@ def game_loop():
         # pygame.time.Clock.tick(30)
 
 
+game_loop()
 pygame.quit()
 quit()
