@@ -16,6 +16,7 @@ pygame.display.set_caption('Snake')
 pygame.draw.rect(dis, blue, [200, 150, 10, 10])
 pygame.display.update()
 game_over = False
+snake_block = 10
 while not game_over:
     for event in pygame:
         if event.type == pygame.QUIT:
@@ -29,11 +30,13 @@ while not game_over:
                 y1_change = -snake_block
             if event.key == pygame.K_RIGHT:
                 y1_change = snake_block
-        x1 += x1_change
-        y1 += y1_change
-        dis.fill(black)
-        pygame.draw.rect(dis, blue, [200, 150, 10, 10])
-        pygame.clock.tick(30)
+    if x1 >= 400 or x1 < 0 or y1 > 300 or y1 < 0:
+        game_over = True
+    x1 += x1_change
+    y1 += y1_change
+    dis.fill(black)
+    pygame.draw.rect(dis, blue, [200, 150, 10, 10])
+    pygame.clock.tick(30)
 pygame.quit()
 quit()
 
