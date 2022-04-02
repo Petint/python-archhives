@@ -27,27 +27,30 @@ def massage(msg: str, color: 'tuple(int, int, int)'):
     return font_stlye.render(msg, True, color)
 
 
-while not game_over:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            game_over = False
-        if event.type == pygame.event:
-            if event.key == pygame.KEYUP:
-                x1_change = -snake_block
-            if event.key == pygame.KEYDOWN:
-                x1_change = snake_block
-            if event.key == pygame.K_LEFT:
-                y1_change = -snake_block
-            if event.key == pygame.K_RIGHT:
-                y1_change = snake_block
-    if x1 >= 400 or x1 < 0 or y1 > 300 or y1 < 0:
-        dis.blit(massage("You stincc", white), 200, 150)
-        time.sleep(2)
-        game_over = True
-    x1 += x1_change
-    y1 += y1_change
-    dis.fill(black)
-    pygame.draw.rect(dis, blue, [200, 150, 10, 10])
-    # pygame.time.Clock.tick(30)
+def game_loop():
+    while not game_over:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                game_over = False
+            if event.type == pygame.event:
+                if event.key == pygame.KEYUP:
+                    x1_change = -snake_block
+                if event.key == pygame.KEYDOWN:
+                    x1_change = snake_block
+                if event.key == pygame.K_LEFT:
+                    y1_change = -snake_block
+                if event.key == pygame.K_RIGHT:
+                    y1_change = snake_block
+        if x1 >= 400 or x1 < 0 or y1 > 300 or y1 < 0:
+            dis.blit(massage("You stincc", white), 200, 150)
+            time.sleep(2)
+            game_over = True
+        x1 += x1_change
+        y1 += y1_change
+        dis.fill(black)
+        pygame.draw.rect(dis, blue, [200, 150, 10, 10])
+        # pygame.time.Clock.tick(30)
+
+
 pygame.quit()
 quit()
