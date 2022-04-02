@@ -13,7 +13,6 @@ pygame.display.update()
 pygame.display.set_caption('Snake')
 pygame.draw.rect(dis, blue, [200, 150, 10, 10])
 pygame.display.update()
-snake_block = 10
 font_stlye = pygame.font.SysFont("Arial", 50)
 # pygame.time.Clock.__init__()
 
@@ -23,11 +22,14 @@ def massage(msg: str, color: 'tuple(int, int, int)'):
 
 
 def game_loop():
+    snake_block = 22
     game_over = False
     x1 = 200
     y1 = 100
     x1_change = 0
     y1_change = 0
+    foody = round(random.randint(0, 400-snake_block),)
+    foodx = round(random.randint(0, 200 - snake_block), )
     while not game_over:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
