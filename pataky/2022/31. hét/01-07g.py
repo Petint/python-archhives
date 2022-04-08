@@ -1,27 +1,24 @@
 import tkinter as tk
 
 
-def nagyobb():
+def keres():
     output.delete(0, tk.END)
-    nums = szam1.get(), szam2.get()
+    szoveg = szam1.get()
     szam1.delete(0, tk.END)
-    szam2.delete(0, tk.END)
-    if nums[0] == nums[1]:
-        output.insert(0, "A kér szám egyenlő.")
+    if 'a' in szoveg:
+        output.insert(0, "A szöveg tartalmaz \'a\' betűt.")
     else:
-        output.insert(0, str(max(nums)))
+        output.insert(0, 'A szöveg nem tartalmaz \'a\' betűt.')
 
 
 window = tk.Tk()
-window.title('01-02')
-txt = tk.Label(window, text='Addj meg két számot')
+window.title('01-07')
+txt = tk.Label(window, text='Olvassunk be egy szöveget és írjuk ki, hogy van-e benne kis "a"-be')
 szam1 = tk.Entry(window)
-szam2 = tk.Entry(window)
 output = tk.Entry(window)
-button = tk.Button(window, text='Melyik nagyobb?', command=nagyobb)
+button = tk.Button(window, text='Van benne kis a?', command=keres)
 txt.pack()
 szam1.pack()
-szam2.pack()
 button.pack()
 output.pack()
 window.mainloop()
