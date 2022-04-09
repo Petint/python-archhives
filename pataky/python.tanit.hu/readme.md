@@ -1,19 +1,8 @@
-Python feladatok  
-
-Python feladatok és tesztek
-===========================
-
-Az oldal folyamatos fejlesztés alatt áll. Ha észrevételed van, örülnénk, ha megosztanád velünk: info @ tanit . hu
-
-iPhone-okra egy Python programozási lehetőség: [Python 3IDE](https://apps.apple.com/hu/app/python3ide/id1357215444?l=hu), Androidos mobilokra: [QPython 3L](https://play.google.com/store/apps/details?id=org.qpython.qpy3&hl=hu&gl=US)
-
-Az érettségi feladatokat a mellékletekkel, megoldásokkal együtt az [Oktatási Hivatal](https://www.oktatas.hu/kozneveles/erettsegi/feladatsorok) weboldaláról vettük át.
+# Python feladatok  
 
 Tartalomjegyzék
 ---------------
 
-*   [Követelmények](#kovetelmenyek)
-*   [Tesztek](#tesztek)
 *   [01 Alapfeladatok](#01)
 *   [02 Ciklusok](#02)
 *   [03 Függvények](#03)
@@ -23,70 +12,6 @@ Tartalomjegyzék
 *   [08 Emelt szintű érettségi feladatok](#08)
 *   [09 Hibakeresés](#09)
 *   [10 Összetett feladatok](#10)
-
-Követelmények
--------------
-
-*   **Alapok**
-    *   [print()](https://www.w3schools.com/python/ref_func_print.asp): paraméterezés, escape, új sor
-    *   [Literálok](https://www.w3spoint.com/python-literals) (kénkrétan beírt adatok) és típusaik: egész, valós, karakterlánc, logikai
-    *   Algoritmusok: bejárás, elemcsere, darabolás, rendezés, buborékrendezés, min, max, megszámlálás, kiválogatás, eldöntés
-    *   Gyakran használt függvények: [input()](https://www.w3schools.com/python/ref_func_input.asp), min(), max(), [range()](https://www.w3schools.com/python/ref_func_range.asp)
-    *   [Kivételkezelés](https://www.w3schools.com/python/python_try_except.asp): beépített és saját kivételek, [assert](https://www.w3schools.com/python/ref_keyword_assert.asp)
-    *   Egyéb eszközök:  
-            [Chrome DevTools](https://developer.chrome.com/docs/devtools/),  
-            [Git](http://math.bme.hu/~balazs/git/gitcml.html) (init, add, commit, branch, checkout, merge, status, clone, pull, push)
-*   **Változók** [Bővebben](https://www.w3schools.com/python/python_variables.asp)
-    *   Változók: névadás, [foglalt szavak (keywords)](https://www.w3schools.com/python/python_ref_keywords.asp)
-    *   [Típuskonverzió](https://www.w3schools.com/python/gloss_python_type_conversion.asp)
-    *   Értékadás, rövidített értékadás: =, +=, /=, %=, //=, -=, \*=, \*\*=
-    *   [Többszörös értékadás](https://www.w3schools.com/python/python_variables_multiple.asp)
-    *   [Megjegyzések](https://www.w3schools.com/python/python_comments.asp): #, ''' '''
-    *   Kifejezések és műveletek [kiértékelési szabályai](https://docs.python.org/3/reference/expressions.html#operator-precedence)
-    *   Összetett adatszerkezetek: [list](https://www.w3schools.com/python/python_lists.asp), [dict](https://www.w3schools.com/python/python_dictionaries.asp)
-    *   list: list(), index(), append(), insert(), in, not in, negatív és nem negatív értékek, egymásba ágyazott listák
-    *   dict: update(), values(), keys(), get(), pop()
-*   **Műveletek (operátorok)** [Bővebben](https://www.w3schools.com/python/python_operators.asp)
-    *   Aritmetikai operátorok: +, -, \*, /, %, \*\*, //
-    *   Összehasonlító műveletek: ==, !=, >, <, >=, <=
-    *   Logikai műveletek: and, or, not
-    *   Azonosság vizsgálat: is, is not
-    *   Tartalmazás vizsgálat: in, not in
-    *   Bit műveletek: &, |, ^, ~, <<, >>
-    *   Karakterláncokon értelmezett operátorok, összefűzés, replikáció
-*   **Karakterek, karakterláncok** [Bővebben](https://www.w3schools.com/python/python_strings.asp)
-    *   Kódolás (utf-8), [ord()](https://www.w3schools.com/python/ref_func_ord.asp), [chr()](https://www.w3schools.com/python/ref_func_chr.asp), [index()](https://www.w3schools.com/python/ref_string_index.asp),
-    *   Összehasonlítás
-    *   Rendezés
-    *   Indexelés, darabolás, in, not in
-    *   [Metódusok](https://www.w3schools.com/python/python_ref_string.asp): capitalize(), center(), count(), endswith(), find(), isalnum(), isalpha(), islower(), isnumeric(), join(), lower(), lstrip(), replace(), rfind(), rstrip(), split(), startswith(), strip(), swapcase(), title(), upper()
-*   **Szerkezeti elemek**
-    *   Egy- és többágú [elágazások (if, elif, else)](https://www.w3schools.com/python/python_conditions.asp), elágazások egymásba ágyazása
-    *   Ciklusok: [for](https://www.w3schools.com/python/python_for_loops.asp), [while](https://www.w3schools.com/python/python_while_loops.asp), végtelen ciklus
-*   **Eljárások és függvények** [Bővebben](https://www.w3schools.com/python/python_functions.asp)
-    *   [Visszatérési érték](https://www.w3schools.com/python/ref_keyword_return.asp), None
-    *   Láthatósági szintek ([scope](https://www.w3schools.com/python/python_scope.asp))
-    *   [Paraméterátadás](https://www.w3schools.com/python/gloss_python_function_arguments.asp) módjai (positional, keyword)
-    *   [Rekurzió](https://www.w3schools.com/python/gloss_python_function_recursion.asp)
-*   **Csomagok és modulok** [Bővebben](https://www.w3schools.com/python/python_modules.asp) , [itt magyarul is bővebben](http://slpython.blogspot.com/2016/09/10-modulok-csomagok.html)
-    *   Ismertebb modulok: [math](https://docs.python.org/3/library/math.html#module-math), [random](https://docs.python.org/3/library/random.html#module-random), [platform](https://docs.python.org/3/library/platform.html#module-platform)
-    *   [import](https://www.w3schools.com/python/ref_keyword_import.asp), [álnév (as)](https://www.w3schools.com/python/ref_keyword_as.asp)
-    *   [Python Module Index](https://docs.python.org/3/py-modindex.html)
-*   **Fájlok** [Bővebben](https://www.w3schools.com/python/python_file_handling.asp)
-    *   [open()](https://www.w3schools.com/python/ref_func_open.asp), [readline()](https://www.w3schools.com/python/ref_file_readline.asp), [readlines()](https://www.w3schools.com/python/ref_file_readlines.asp), [write()](https://www.w3schools.com/python/ref_file_write.asp),
-    *   Szöveges fájlok kezelésének hibái és javításuk
-    *   [os](https://docs.python.org/3/library/os.html) modul
-*   **Osztályok és objektumok** [Bővebben](https://www.w3schools.com/python/python_classes.asp)
-    *   Osztály (class), osztályhierarchia
-    *   Objektum, példányosítás
-    *   [dir()](https://www.w3schools.com/python/ref_func_dir.asp)
-
-Tesztek
--------
-
-*   [Python - Alapok (teszt)](https://forms.gle/ukrmYE9JsG1U5BJa8)
-*   [Python - Változók (teszt)](https://forms.gle/3RF93smTTJTFwaSU6)
-*   [Python - Adattípusok (teszt)](https://forms.gle/N3dQG3MEhLTJNh7YA)
 
 01 Alapfeladatok
 ----------------
