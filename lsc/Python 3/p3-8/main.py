@@ -18,7 +18,7 @@ pygame.draw.rect(dis, blue, [200, 150, 10, 10])
 pygame.display.update()
 
 font_stlye = pygame.font.SysFont("Arial", 50)
-# pygame.time.Clock.__init__()
+clock = pygame.time.Clock()
 
 
 def massage(msg: str, color: 'tuple(int, int, int)'):
@@ -64,8 +64,6 @@ def game_loop():
             print('yum')
         pygame.display.update()
         clock.tick(30)
-
-
 
 
 game_loop()
