@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01901ac1-3419-4eae-99a3-027bc1134934" name="Changes" comment="Lost files" />
+    <list default="true" id="01901ac1-3419-4eae-99a3-027bc1134934" name="Changes" comment="ugu">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-02g.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-02g.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-07g.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-07g.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-31.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-07.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-08.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-xg.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-xg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-01en.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-01en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1228.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1253.py" beforeDir="false" afterPath="$PROJECT_DIR$/1253.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/au2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ds.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mplt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/osszead.py" beforeDir="false" afterPath="$PROJECT_DIR$/osszead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/osztas es int.py" beforeDir="false" afterPath="$PROJECT_DIR$/osztas es int.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekurzio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rekurzio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syetb.py" beforeDir="false" afterPath="$PROJECT_DIR$/syetb.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +83,7 @@
       <recent name="E:\python\python-archhives\pataky\2022\31. hét" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01-02g">
+  <component name="RunManager" selected="Python.mplt">
     <configuration name="01-02g" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="31. hét" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +147,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mplt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="31. hét" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mplt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="osszead" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="31. hét" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +191,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mplt" />
         <item itemvalue="Python.01-02g" />
         <item itemvalue="Python.auto" />
         <item itemvalue="Python.osszead" />
@@ -205,7 +263,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="01-02 Grafikusan" />

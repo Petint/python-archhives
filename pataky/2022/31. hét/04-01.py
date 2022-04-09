@@ -14,8 +14,7 @@ A mintának megfelelő módon írjuk ki:
 - a lista elemeinek az átlagát
 Akkor is helyesen működjön a program, ha módosítjuk a listát!
 """
-
-data = [3, 45, 6, 8, 324, 56, 23, 45, 98, 777, 678, 83, 65, 98]
+data = [3, 45, 6, 8, 324, 56, 23, 45, 98, 777, 678, 83, 65, 98, 69]
 print(f"""
 A lista elemeinek száma :                        {len(data)}
 A lista első eleme :                             {data[0]}

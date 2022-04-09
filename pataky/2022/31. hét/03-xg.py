@@ -1,3 +1,4 @@
+"""I hathe this."""
 import tkinter
 input_box = None
 paratlanablak = None

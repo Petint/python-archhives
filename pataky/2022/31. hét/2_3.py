@@ -1,4 +1,4 @@
-nums = [2,3,4,5,6,564,65,666,64,69,555,420]
+nums = [2, 3, 4, 5, 6, 564, 65, 666, 64, 69, 555, 420]
 
 
 def Maxx(inpt):
@@ -15,6 +15,7 @@ def Minx(inpt):
         if c < valuae:
             valuae = c
     return valuae
+
 
 if len(nums) > 0:
     print(f"The biggest number is: {Maxx(nums)}")
