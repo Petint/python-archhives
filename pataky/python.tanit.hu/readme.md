@@ -10,15 +10,17 @@
 * [Hibakeresés]()
 * [Összetett feladatok]()
 
-   
 ## Alapfeladatok
-<h3 id="01-01">01-01 Szöveg-szám </h3>
-<div class="solutionDescription"><span class="descriptionTitle">Feladat leírás:</span><br>Olvassunk be egy számot. Ha nem egész szám, akkor írjuk ki, hogy "Nem egész szám", különben írjuk ki, hogy "Egész szám". <br></div>
-<div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-0.png" alt="01-01 Szöveg-szám-0"></div>
-<div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-1.png" alt="01-01 Szöveg-szám-1"></div>
-<div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-2.png" alt="01-01 Szöveg-szám-2"></div>
-<div class="solutionLink">Egy lehetséges megoldást <a href="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám_xsw.py" target="_blank">itt találsz</a>.</div>
-<h3 id="01-02">01-02 Nagyobb </h3>
+### 01-01 Szöveg-szám
+Feladat leírás:<br>
+Olvassunk be egy számot. Ha nem egész szám, akkor írjuk ki, hogy "Nem egész szám", különben írjuk ki, hogy "Egész szám".
+<br>
+Végeredmény minta (részlet): <br> 
+<br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-0.png" alt="01-01 Szöveg-szám-0">
+<br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-1.png" alt="01-01 Szöveg-szám-1">
+Végeredmény minta (részlet):
+<br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-2.png" alt="01-01 Szöveg-szám-2">
+### Nagyobb
 <div class="solutionDescription"><span class="descriptionTitle">Feladat leírás:</span><br>Olvass be két egész számot. Írd ki a nagyobbat. Ha egyformák, akkor írd ki, hogy egyenlők.<br>Biztosra vehetjük, hogy egész számot adunk meg.<br></div>
 <div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-02 Nagyobb/01-02 Nagyobb-0.png" alt="01-02 Nagyobb-0"></div>
 <div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-02 Nagyobb/01-02 Nagyobb-1.png" alt="01-02 Nagyobb-1"></div>
@@ -380,11 +382,3 @@
 <div class="attachment">A mellékelt fájlt <a href="https://python.tanit.hu/./10 Összetett feladatok/10-02 Fájlból lista/Job.txt" target="_blank">innen töltheted le</a>.</div>
 <div class="attachment">A mellékelt fájlt <a href="https://python.tanit.hu/./10 Összetett feladatok/10-02 Fájlból lista/Male.txt" target="_blank">innen töltheted le</a>.</div>
 <div class="solutionLink">Egy lehetséges megoldást <a href="https://python.tanit.hu/./10 Összetett feladatok/10-02 Fájlból lista/10-02 Fájlból lista_l23.py" target="_blank">itt találsz</a>.</div>
-	<div id="toTop">
-		<small><a href="#">Ugrás az elejére</a></small>
-	</div>
-
-    <footer>
-        <hr>
-    </footer>
-</form>
