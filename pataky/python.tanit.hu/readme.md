@@ -1,8 +1,8 @@
 
 ## Tartalomjegyzék
 * [Alapfeladatok](#Alapfeladatok)
-* [Ciklusok]()
-* [Függvények]()
+* [Ciklusok](#Ciklusok)
+* [Függvények](#Függvények)
 * [Listák]()
 * [Fájlkezelés]()
 * [Középszintű érettségi feladatok]()
@@ -13,8 +13,7 @@
 ## Alapfeladatok
 ### 01-01 Szöveg-szám
 Feladat leírás:<br>
-Olvassunk be egy számot. Ha nem egész szám, akkor írjuk ki, hogy "Nem egész szám", különben írjuk ki, hogy "Egész szám".
-<br>
+Olvassunk be egy számot. Ha nem egész szám, akkor írjuk ki, hogy "Nem egész szám", különben írjuk ki, hogy "Egész szám".<br>
 Végeredmény minta (részlet): <br> 
 <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-0.png" alt="01-01 Szöveg-szám-0">
 <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-01 Szöveg-szám/01-01 Szöveg-szám-1.png" alt="01-01 Szöveg-szám-1">
@@ -92,7 +91,7 @@ Végeredmény minta (részlet):
 <div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-32 Python teszt/01-32 Python teszt-1.png" alt="01-32 Python teszt-1"></div>
 <div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./01 Alapfeladatok/01-32 Python teszt/01-32 Python teszt-2.png" alt="01-32 Python teszt-2"></div>
 <div class="solutionLink">Egy lehetséges megoldást <a href="https://python.tanit.hu/./01 Alapfeladatok/01-32 Python teszt/01-32 Python teszt_w4r.py" target="_blank">itt találsz</a>.</div>
-<h2 id="02">02 Ciklusok </h2>
+## Ciklusok
 <h3 id="02-09">02-09 Legkisebb </h3>
 <div class="solutionDescription"><span class="descriptionTitle">Feladat leírás:</span><br>Kérjük be hány egész számot akar megadni a felhasználó majd annyi egész számot beolvastatunk és aztán kiírjuk a legkisebbet.<br>Biztosra vehetjük, hogy egész számot adnak meg az elején is és utána is.<br></div>
 <div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./02 Ciklusok/02-09 Legkisebb/02-09 Legkisebb.png" alt="02-09 Legkisebb"></div>
@@ -162,7 +161,7 @@ Végeredmény minta (részlet):
 <div class="solutionDescription"><span class="descriptionTitle">Feladat leírás:</span><br>A felhasználó három lehetőség közül választhasson:<br>a) Kiírjuk neki az első 10 páros számot<br>b) Kérünk töle egy számot, és megmondjuk, hogy az páros-e<br>c) Kérünk tőle két számot és kiírjuk a szorzatukat<br>d) Kilépés a programból<br><br>Addig kérjük ismétlődően a menüből választást, amíg d-vel ki nem lép.<br></div>
 <div class="solutionImage">Végeredmény minta (részlet): <br><img src="https://python.tanit.hu/./02 Ciklusok/02-29 Menu/02-29 Menu.png" alt="02-29 Menu"></div>
 <div class="solutionLink">Egy lehetséges megoldást <a href="https://python.tanit.hu/./02 Ciklusok/02-29 Menu/02-29 Menu_mn2.py" target="_blank">itt találsz</a>.</div>
-<h2 id="03" class="h2_test">03 Függvények </h2>
+## Függvények
 <div class="info">&#xFEFF;A függvényekkel kapcsolatos feladatoknak külön említés nélkül is minden esetben része a függvény helyes működését ellenőrző teszt környezet megírása is.
 </div>
 <h3 id="03-01" class="h3_test">03-01 Függvény - Páratlan </h3>
