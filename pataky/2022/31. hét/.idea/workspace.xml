@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01901ac1-3419-4eae-99a3-027bc1134934" name="Changes" comment="wrong cable for printer chingus" />
+    <list default="true" id="01901ac1-3419-4eae-99a3-027bc1134934" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649516508655</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&#10;4 E&#10;&#10;25">
+      <created>1649516590266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516590266</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +250,7 @@
     <MESSAGE value="input -&gt; float" />
     <MESSAGE value="Lost files" />
     <MESSAGE value="wrong cable for printer chingus" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong cable for printer chingus" />
+    <MESSAGE value="&#10;4 E&#10;&#10;25" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;4 E&#10;&#10;25" />
   </component>
 </project>
