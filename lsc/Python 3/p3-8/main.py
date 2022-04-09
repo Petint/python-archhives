@@ -25,8 +25,14 @@ def massage(msg: str, color: 'tuple(int, int, int)'):
     return font_stlye.render(msg, True, color)
 
 
+def snake(snake_block: int, snake_list: list):
+    for x in snake_list:
+        block_data = [x[0], x[1], snake_block, snake_block]
+        pygame.draw.rect(dis, blue, block_data)
+
+
 def game_loop():
-    snake_block = 22
+    snake_block = 10
     game_over = False
 
     x1 = 200
@@ -35,9 +41,10 @@ def game_loop():
     x1_change = 0
     y1_change = 0
 
-    foody = round(random.randint(0, height-snake_block))
-    foodx = round(random.randint(0, 200 - snake_block))
-
+    foody = round(random.randint(0, height-snake_block) / snake_block) * snake_block
+    foodx = round(random.randint(0, 200 - snake_block) / snake_block) * snake_block
+    snake_list = []
+    los = 1
     while not game_over:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -58,10 +65,16 @@ def game_loop():
         x1 += x1_change
         y1 += y1_change
         dis.fill(black)
-        pygame.draw.rect(dis, blue, [x1, y1, snake_block, snake_block])
         pygame.draw.rect(dis, green, [foodx, foody, snake_block, snake_block])
+        snake_head = [x1, y1]
+        snake_list.append(snake_head)
+        if len(snake_list) > los:
+            del snake_list[0]
+        snake(snake_block, snake_list)
         if x1 == foodx and y1 == foody:
-            print('yum')
+            foody = round(random.randint(0, height - snake_block) / snake_block) * snake_block
+            foodx = round(random.randint(0, 200 - snake_block) / snake_block) * snake_block
+            los += 1
         pygame.display.update()
         clock.tick(30)
 
