@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01901ac1-3419-4eae-99a3-027bc1134934" name="Changes" comment="ugu">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-02g.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-02g.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-07g.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-07g.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-31.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-07.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-08.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-xg.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-xg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-01en.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-01en.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1228.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1253.py" beforeDir="false" afterPath="$PROJECT_DIR$/1253.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/au2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ccc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mplt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/osszead.py" beforeDir="false" afterPath="$PROJECT_DIR$/osszead.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osztas es int.py" beforeDir="false" afterPath="$PROJECT_DIR$/osztas es int.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rekurzio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/rekurzio1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syetb.py" beforeDir="false" afterPath="$PROJECT_DIR$/syetb.py" afterDir="false" />
-    </list>
+    <list default="true" id="01901ac1-3419-4eae-99a3-027bc1134934" name="Changes" comment="wrong cable for printer chingus" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649408393060</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="wrong cable for printer chingus">
+      <created>1649516508655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649516508655</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +242,7 @@
     <MESSAGE value="add" />
     <MESSAGE value="input -&gt; float" />
     <MESSAGE value="Lost files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lost files" />
+    <MESSAGE value="wrong cable for printer chingus" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong cable for printer chingus" />
   </component>
 </project>
