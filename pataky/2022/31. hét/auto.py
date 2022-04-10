@@ -1,5 +1,5 @@
 uzfogy = 0.06  # benzinfigyasztás/1Km
-uzar = 500  # benzinár
+uzar = 495.488  # benzinár
 # User megkérdezése:
 try:
     aszam = int(input("Hány autó?\n> "))  # Autók száma

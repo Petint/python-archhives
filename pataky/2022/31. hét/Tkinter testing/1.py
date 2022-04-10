@@ -22,7 +22,7 @@ result_label = tkinter.Entry(window)
 # place components
 for i in range(4):
     window.columnconfigure(i, pad=15)
-    window.rowconfigure(i, pad=10)
+    window.rowconfigure(i, pad=11)
 # Show components
 start_label.grid(row=1, column=1, sticky=tkinter.E)
 start_entry.grid(row=1, column=2)

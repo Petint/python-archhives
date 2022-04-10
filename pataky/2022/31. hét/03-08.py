@@ -4,6 +4,7 @@ from math import pi
 
 def kerulet(r: float) -> float:
     return 2 * r * pi
+    # That's not quite what I was supposed to do, but THIS IS MY PROGRAM AND P CAN DO WHATEVER WHIT IT!!!
 
 
 def felulet(r: float, k: float) -> float:

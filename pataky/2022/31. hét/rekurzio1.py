@@ -1,9 +1,9 @@
-def elsoszaz(x):
+def elsosztas(x):
     x += 1
     print(x)
     if x < 100:
-        elsoszaz(x)
+        elsosztas(x)
 
 
-elsoszaz(0)
+elsosztas(0)
     

@@ -1,7 +1,5 @@
 from random import randint
-
 nums = []
-
 while 1 not in nums:
     nums.append(randint(0, 9))
 print(f"""

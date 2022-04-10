@@ -1,4 +1,4 @@
-print('Annyi szamot olvasunk be...')
+print('Annyi szamot olvasunk be ahányat a felhasnláló akjar.')
 
 nums = [int(input('Addj meg egy szamot:')) for _ in range(int(input('Hany szamot akarsz beadni? ')))]
 print(f"""

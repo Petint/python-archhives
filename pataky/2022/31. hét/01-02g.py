@@ -14,7 +14,7 @@ def nagyobb():
 
 window = tk.Tk()
 window.title('01-02')
-txt = tk.Label(window, text='Addj meg két számot')
+txt = tk.Label(window, text='Adj meg két számot')
 szam1 = tk.Entry(window)
 szam2 = tk.Entry(window)
 output = tk.Entry(window)

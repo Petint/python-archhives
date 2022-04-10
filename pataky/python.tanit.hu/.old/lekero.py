@@ -53,7 +53,7 @@ def leker(du: str):
         nums = feladatok.veletlenszaz()
         feladatok.min_max_atlag(nums)
     elif du == "01-24":
-        feladatok.kiertekeles(feladatok.veletlenszaz())
+        feladatok.kiertekeles()
     elif du == "01-25":
         feladatok.veletlenatlag(input("Adj meg egy számot: "))
     elif du == "01-26":
