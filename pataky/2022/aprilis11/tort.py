@@ -30,4 +30,4 @@ elif nums[0] > nums[1]:
 if valasz == good:
     print('Helyes válasz')
 else:
-    print(f'Helytelen válasz, a helyes válasz a {good} volt.')
+    print(f'Helytelen válasz, a helyes válasz a(z) {good} volt.')
