@@ -1,6 +1,10 @@
 from random import randint
 
 
+def szamma(tort: 'tuple(int, int)') -> float:
+    return tort[0] / tort[1]
+
+
 nums = [randint(10, 100) for _ in range(4)]
 tort1 = nums[0], nums[1]
 tort2 = nums[2], nums[3]
