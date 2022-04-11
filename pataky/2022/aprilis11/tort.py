@@ -18,4 +18,16 @@ b) x = y
 c) x > y
 """)
 valasz = input("melyik állítás igaz? ")
+valasz = valasz.lower()
+nums = [szamma(tort1), szamma(tort2)]
+if nums[0] < nums[1]:
+    good = 'a'
+elif nums[0] == nums[1]:
+    good = 'b'
+elif nums[0] > nums[1]:
+    good = 'c'
 
+if valasz == good:
+    print('Helyes válasz')
+else:
+    print(f'Helytelen válasz, a helyes válasz a {good} volt.')
