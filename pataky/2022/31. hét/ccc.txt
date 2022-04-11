@@ -1,9 +1,0 @@
-művelet;1;2;3;megoldás
-5*2;10;52;Hibára fut;1
-'5'*2;10;55; Hibára fut;2
-'5'*'2';10;52;Hibára fut;3
-5*'2';10;22222;Hibára fut;2
-5+2;7;52;Hibára fut;1
-'5'+2;7;52; Hibára fut;3
-'5'+'2';7;52;Hibára fut;2
-5+'2';7;52;Hibára fut;3

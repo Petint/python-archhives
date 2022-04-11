@@ -16,12 +16,12 @@ for i in szamok:
     if i % 2 == 0:
         paros += 1
     else:
-        paratlan+=1
+        paratlan += 1
 print(f"Páros: {paros}\nPáratlan: {paratlan}\nPozitív: {pozitiv}\nNegatív: {negativ}\nNulla: {nulla}\n")
 
 # 2. feladat
 
-nums = [1,2,3,4,5,4,4,2,1,6,1]
+nums = [1, 2, 3, 4, 5, 4, 4, 2, 1, 6, 1]
 print(str(nums))
 new_nums = []
 Skipped_nums = 0
@@ -33,33 +33,34 @@ for i in nums:
 print(new_nums)
 print(Skipped_nums)
 
-#3 & Knuckles. Feladat
+# 3 & Knuckles. Feladat
 
-list = [1,2,3,4]
+list = [1, 2, 3, 4]
 list.extend("Hello, világ!")
 print(list)
-list.extend([1,2,3,"LooL ScoocS TáT"])
+list.extend([1, 2, 3, "LooL ScoocS TáT"])
 print(list)
-    
-#4. feladat -- egész számok keresése
-every_list_be_like = [321,"rs-232",True,12,3.141,4,5,"allat.py","0",False,3.1,4,list]
+
+# 4. feladat -- egész számok keresése
+every_list_be_like = [321, "rs-232", True, 12, 3.141, 4, 5, "allat.py", "0", False, 3.1, 4, list]
 intigers_list = []
 for f in every_list_be_like:
     if type(f) == int:
         intigers_list.append(f)
 print(intigers_list)
 
-#5. feladat - terjedelem
+# 5. feladat - terjedelem
 from random import randint
+
 rng = []
 for x in range(100):
-    rng.append(randint(0,100))
+    rng.append(randint(0, 100))
 minx = min(rng)
 maxx = max(rng)
-rangex = maxx-minx
+rangex = maxx - minx
 print(f"Legkisebb: {minx}\nLegnagyobb: {maxx}\nTerjedelem: {rangex}")
 
-#6. FeleF
+# 6. FeleF
 print(rng)
 index = 0
 largest_number = rng[0]
