@@ -8,4 +8,10 @@ del nums
 print(f"""
 x = {tort1[0]}/{tort1[1]}
 y = {tort2[0]}/{tort2[1]}
+Állítások:
+a) x < y
+b) x = y
+c) x > y
 """)
+valasz = input("melyik állítás igaz? ")
+
