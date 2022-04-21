@@ -22,9 +22,12 @@ Román Sarolta,24,Budapest
 Virág Bertalan,22,Pécs
 """
 oldest = ('', 99, '')
-yng =
+pest = ('', -1)
 for line in dataList.splitlines()[1:]:
     person = line.split(',')
     if int(person[1]) < int(oldest[1]):
         oldest = person
+    if int(person[1]) > pest[1] and person[2] == 'Budapest':
+        pest = person[0], int(person[1])
 print(oldest)
+print(pest)
