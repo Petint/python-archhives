@@ -21,8 +21,10 @@ Piros Adél\t29\tDebrecen
 Bíró Zsolt\t16\tBudapest
 Szabados Attila\t25\tDebrecen
 """
-
+debre_people = 0
 for ppl in dataList.splitlines()[1:]:
-    nev, kor, varos = ppl.split('\t')
-    # print(nev, kor, varos)
-
+    nev, kor, city = ppl.split('\t')
+    # print(nev, kor, city)
+    if city == 'Debrecen':
+        debre_people += 1
+print(f'{debre_people} Debreceni talalhato',)
