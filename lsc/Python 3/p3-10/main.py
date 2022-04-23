@@ -1,16 +1,19 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def printiger(p):
+    for x in range(p+1):
+        print(x, end=" ")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+printiger(123)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def matrix_sum(data: 'list[list[int]]') -> int:
+    total = 0
+    for i in data:
+        for p in i:
+            total += p
+    return total
+
+
+matrix = [[x+y for y in range(5)] for x in range(5)]
+print('\n\n', matrix, matrix_sum(matrix), sep="\n")
+
