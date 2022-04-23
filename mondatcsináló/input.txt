@@ -1,8 +1,4 @@
-Józsi,Géza,Pista,Pisti,Lilla,A cicánk,A kutyánk,Anna,Anya,Bálint,Valaki,Senki,Joe,Dávid,Maffia vezér,Czinegeplayz,Pipo,Beni,Kuhár Bence,Áron,Apa,Papa,Sándor,Sanyi,Joseph,Benedek,Béla,Dani,Tihanyi,Szabi,Mikó,Szalai,Dj. Sakkos,Tibi,Apáti,Jani,Cirmike,Emanuel,Tiborc,null
-az ágyban,a kertben,a nappaliban,a hálószobában,a Minecraft-ban,a pincében,a padlásban,a tetőn,az autóban,a garázsban,Dorogon,Lajosmizsén,a suliban,a Papánál,otthon,a boltban,Esztergomban,Náregyházán,Níregyházán,Félegyházán,a játszótéren,Kispesten,iPordól,otthon,a,Gombán,null
-vizet,kenyeret,almát,biciklit,autót,zenét,kutyát,érmét,ebédet,vacsorát,az áramot,sajtot,reggelit,bögrét,tetőt,memoritert,játékautót,papucsot,videót,csomagot,Gyümölcs levet,Pizzát,cigit,programot,Netflixet,krumplit,filmeket,,paprikáskrumplit,null
-iszik,eszik,zabál,szerel,vezet,hallgat,sétáltat,vásárol,takarít,főz,süt,ölelget,vár,néz,pucol,reszel,néz,kikerdez,olvas,Készít,polgárőrködik,szív,süt,craftol,gyárt,tanít,ken,lop,játszik,lő,null
-ki?
-hol?
-mivel?
-Mit csinál?
+Józsi,Pisti,Pisti,Lilla,A cicánk,A kutyánk,Anna,Anya,Bálint,Valaki,Senki,DávidKuhár Bence,Áron,Apa,Papa,Sándor,Sanyi,Benedek,Béla,Dani,Szabi,Dj. Sakkos,Tibi,Jani,Cirmike,Emanuel,
+a kertben,a konyhában,a kertben,az ágyban,a kertben,a nappaliban,a hálószobában,a Minecraft-ban,a pincében,a padlásban,a tetőn,az autóban,a garázsban,Lajosmizsén,a suliban,Papánál,otthon,a boltban,Esztergomban,Náregyházán,Níregyházán,Félegyházán,a játszótéren,Kispesten,iPordól,otthon,Gombán,
+vizet,paprikáskrumplit,biciklit,vizet,kenyeret,almát,biciklit,autót,zenét,kutyát,érmét,ebédet,vacsorát,sajtot,reggelit,bögrét,tetőt,játékautót,papucsot,videót,csomagot,Gyümölcs levet,Pizzát,cigit,krumplit,filmeket,paprikáskrumplit,
+iszik,főz,szerel,iszik,eszik,szerel,vezet,hallgat,sétáltat,vásárol,takarít,főz,süt,vár,néz,pucol,reszel,néz,olvas,Készít,szív,süt,craftol,gyárt,tanít,ken,lop,játszik,lő,
