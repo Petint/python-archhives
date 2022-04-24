@@ -6,7 +6,7 @@ Ha nem egész számot adtak meg, érjen véget azzal, hogy kírjuk: "HIBA: Nem e
 Különben írjuk ki a szám dupláját.
 """
 
-# Hibakezeléses számbekérés
+print("Bekérünk egy számot és kiírjuk a dupláját.")
 try:
     du = int(input("Adj meg egy számot: "))
 except ValueError:
