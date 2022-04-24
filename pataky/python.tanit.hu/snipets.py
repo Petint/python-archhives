@@ -11,3 +11,11 @@ if du.isnumeric():
     pass
 else:
     pass
+
+# Nagyobb - Kisebb - Egyenlő
+if a > b:
+    pass
+elif a < b:
+    pass
+else:
+    pass
