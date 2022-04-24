@@ -19,3 +19,12 @@ elif a < b:
     pass
 else:
     pass
+
+# párossság
+if a % 2 == 0:
+    # Páros
+    pass
+else:
+    # páratlan
+    pass
+
