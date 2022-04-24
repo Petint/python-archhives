@@ -28,3 +28,5 @@ else:
     # páratlan
     pass
 
+# szövegbekérés
+du = input("Adj meg egy szöveget: ")
