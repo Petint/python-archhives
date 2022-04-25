@@ -2,26 +2,6 @@ class Table:
     """Easy way of making unicode tables"""
 
     def __init__(self, table_data: 'list[list]', length: int = 5):
-        self._t1 = __Table__(table_data, length)
-
-    def make(self) -> str:
-        """
-        Generates the table string.
-        Desinged to be passed to print() i.e. print(table1.make())
-        usage:
-            1. Turn list into table: able1 = Table[data]
-            2. print the table :     print(table1.make())
-        """
-        return self._t1.make()
-
-
-class __Table__:
-    """
-    Internal class
-    Use facade pls
-    """
-
-    def __init__(self, table_data: 'list[list]', length: int):
         self.tabledata = table_data
         self.item_length = length
 
@@ -63,6 +43,13 @@ class __Table__:
         return seprow
 
     def make(self) -> str:
+        """
+        Generates the table string.
+        Desinged to be passed to print() i.e. print(table1.make())
+        usage:
+            1. Turn list into table: able1 = Table[data]
+            2. print the table :     print(table1.make())
+        """
         str_table = ''
         str_table += self.getfirstrow()
         for x in range(len(self.tabledata)):

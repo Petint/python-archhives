@@ -7,7 +7,7 @@ print(y1 is y2)
 print("5.feladat")
 print(y1 in y2)
 print("6.feladat")
-email = input("adj meg egy email cimet.\n>")    # lekvaros.kenyer@almafa.hu
+email = input("adj meg egy email cimet.\n>") #lekvaros.kenyer@almafa.hu
 if "@" in email and (email.endswith(".com") or email.endswith(".hu")):
     print("Ez az email jó.")
 else:
