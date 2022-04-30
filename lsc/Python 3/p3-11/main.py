@@ -32,12 +32,24 @@ def letter_count(p):
 
 def list_file():
     my_file = open("sheet.txt", "w")
-    shoppings = ["braad\n", "orang\n", "melk\n", "cheez\n", "soap shoes\n"]
+    shoppings = ["braad\n", "orang\n", "melk\n", "cheez\n", "soap shoes\n", "shish kebab\n"]
     my_file.writelines(shoppings)
+
+
+def remove_kebab(p):
+    shooping_file = open("sheet.txt", "r+")
+    lines = shooping_file.readline()
+    shooping_file.seek(0)
+    for line in lines:
+        if line.strip("\n") != p:
+            shooping_file.write(line)
+        shooping_file.truncate()
+    shooping_file.close()
 
 
 new_file()
 file_append()
 letter_count("a")
 list_file()
+remove_kebab("shish kebab")
 file_read()
