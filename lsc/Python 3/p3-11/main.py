@@ -47,9 +47,32 @@ def remove_kebab(p):
     shooping_file.close()
 
 
+def file_pattern():
+    my_file = open("sheet.txt", "w")
+    pointer = 0
+    for line in range(20):
+        thisline = ""
+        for chair in range(6):
+            if chair == pointer:
+                thisline += "  "
+            else:
+                thisline += "--"
+        if pointer == 5:
+            dirt = False
+        if pointer == 0:
+            dirt = True
+        if dirt:
+            pointer += 1
+        else:
+            pointer -= 1
+        thisline += '\n'
+        my_file.write(thisline)
+
+
 new_file()
 file_append()
 letter_count("a")
 list_file()
 remove_kebab("shish kebab")
 file_read()
+file_pattern()
