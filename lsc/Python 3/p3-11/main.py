@@ -20,6 +20,16 @@ def file_append():
     my_file.close()"""
 
 
+def letter_count(p):
+    my_file = open("sheet.txt", "r+")
+    count = 0
+    for e in my_file.read():
+        if e.lower() == p:
+            count += 1
+    my_file.close()
+    print(count)
+
+
 new_file()
 file_append()
 file_read()
