@@ -1,3 +1,9 @@
 print("A 2015 utáni években elkövetett bűncselekmények száma:")
 filename = "Kábítószeres bűncselekmények.txt"
 datas = open(filename, "r")
+txtdatalist = datas.read().splitlines()
+txtdatalist = txtdatalist[1:]
+txtdatalist = [t.split('\t') for t in txtdatalist]
+print(txtdatalist)
+
+datas.close()
