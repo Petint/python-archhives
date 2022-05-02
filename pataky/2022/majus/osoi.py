@@ -7,4 +7,4 @@ fdata = fdata.splitlines()
 for ember in fdata:
     if "költő" in ember:
         print(ember)
-f.colse()
+file.close()
