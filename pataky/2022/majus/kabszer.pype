@@ -1,2 +1,3 @@
 print("A 2015 utáni években elkövetett bűncselekmények száma:")
-
+filename = "Kábítószeres bűncselekmények.txt"
+datas = open(filename, "r")
