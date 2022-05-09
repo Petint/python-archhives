@@ -10,11 +10,11 @@ path = "wales.txt"
 file = open(path, "r", encoding="utf-8")
 bardok = file.read()
 # print(bardok)
-f_bard = open("f-betus-sor.txt", "w")
+f_bard = open("f-betus-sor.txt", "w", encoding="utf-8")
 bardok = bardok.splitlines()
 for bard in bardok:
     if "f" in bard.lower():
         print(bard)
-        f_bard.write(bard)
+        f_bard.write(bard+'\n')
 f_bard.close()
 
