@@ -5,8 +5,12 @@ txtdatalist = datas.read().splitlines()
 txtdatalist = txtdatalist[1:]
 txtdatalist = [t.split('\t') for t in txtdatalist]
 # print(txtdatalist)
+legnagyobb = txtdatalist[0]
 for txtdata in txtdatalist:
     if int(txtdata[0]) > 2015:
         print(f"{txtdata[0]}\t{txtdata[1]}")
+    if txtdata[1] > legnagyobb[1]:
+        legnagyobb = txtdata
 
 datas.close()
+print(f"{legnagyobb[0]} évben követték el a legtöbb kábítószerse műncselekményt: {legnagyobb[1]}")
