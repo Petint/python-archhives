@@ -6,9 +6,12 @@ Töltsd le és olvasd be A Walesi bárdok c. verset a 'wales.txt' utf-8 kódolá
 A második "végeredmény minta" a létrehozott új fájl tartalmából mutat egy részt.
 A mellékelt fájlt innen töltheted le.
 """
-path = "magyar-koltok-irok.txt"
+path = "wales.txt"
 file = open(path, "r", encoding="utf-8")
-fdata = file.read()
-# print(fdata)
-fdata = fdata.splitlines()
+bardok = file.read()
+# print(bardok)
+bardok = bardok.splitlines()
+for bard in bardok:
+    if "f" in bard.lower():
+        print(bard)
 
