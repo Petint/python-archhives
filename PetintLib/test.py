@@ -4,9 +4,9 @@ import petint
 
 if __name__ == '__main__':
     input("Testing autotable.py...")
-    size = 25
-    test_data = [[x * size + y for y in range(size)] for x in range(size)]
-    table1 = autotable.Table(test_data, length=5)
+    size = 50
+    test_data = [[chr(x * size + y) for y in range(size)] for x in range(size)]
+    table1 = autotable.Table(test_data, length=1)
     print(table1.make())
 
     input("Testing gagyimatek.py...")
