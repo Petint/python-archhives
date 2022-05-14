@@ -20,3 +20,4 @@ if __name__ == '__main__':
 
     input("Testing petint.py...")
     print(petint.filetofloat('asd'))
+    input("Testing failed successfully.")
