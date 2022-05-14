@@ -1,2 +1,7 @@
 import emoji
-print(emoji.emojize(":minidisc:", language="alias"))
+import PetintLib
+from art import *
+import pyjokes as pj
+md = emoji.emojize(":minidisc:", language="alias")
+# print(md, end="")
+tprint(pj.get_joke())
