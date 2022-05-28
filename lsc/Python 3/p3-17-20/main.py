@@ -21,6 +21,23 @@ class Player(sprite.Sprite):
         self.rect = self.surf.get_rect(center=(20, 410))
         self.pos = my_vec((10, 385))
         self.vel = my_vec(0, 0)
+        self.acc = my_vec(0, 0)
+
+    def move(self):
+        self.acc = my_vec(0, 0)
+        pressed_keys = key.get_pressed()
+        if pressed_keys[K_LEFT]:
+            self.acc.x = -ACC
+        if pressed_keys[K_RIGHT]:
+            self.acc.x = ACC
+        self.acc.x += self.vel.x * FRIC
+        self.vel += self.acc
+        self.pos += self.vel + ACC * self.acc
+        if self.pos.x > WIDTH:
+            self.vel.x -= 20    # self.pos.x = 0
+        if self.pos.x < 0:
+            self.vel.x += 20    # self.pos.x = 0
+        self.rect.midbottom = self.pos
 
 
 class Platform(sprite.Sprite):
@@ -41,7 +58,7 @@ all_sprites.add(PL1)
 platforms = sprite.Group()
 platforms.add(PT1)
 
-while True:
+while True:     # Main loop
     for evnt in event.get():
         if evnt.type == QUIT:
             quit()
@@ -49,6 +66,7 @@ while True:
 
     for entity in all_sprites:
         disp_srf.blit(entity.surf, entity.rect)
-
+    PL1.move()
+    PL1.update()
     display.update()
     framsper.tick(FPS)
