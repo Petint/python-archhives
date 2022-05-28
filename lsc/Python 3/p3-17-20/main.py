@@ -44,3 +44,6 @@ while True:
         if evnt.type == QUIT:
             quit()
     disp_srf.fill((0, 0, 0))
+
+    for entity in all_sprites:
+        disp_srf.blit(entity.surf, entity.rect)
