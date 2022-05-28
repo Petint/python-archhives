@@ -2,14 +2,14 @@ from pygame import *
 
 init()
 my_vec = math.Vector2
-HEIGHT = 420
-WIDTH = 400
+HEIGHT = 450
+WIDTH = 420
 ACC = 0.5
 FRIC = -0.12
 FPS = 60
 
 framsper = time.Clock()
-disp_srf = display.set_mode(WIDTH, HEIGHT)
+disp_srf = display.set_mode((WIDTH, HEIGHT))
 display.set_caption('Platformer')
 
 
@@ -18,7 +18,9 @@ class Player(sprite.Sprite):
         super().__init__()
         self.surf = Surface((30, 40))
         self.surf.fill((128, 255, 40))
-        self.rect = self.surf.get_rect(center=(10, 420))
+        self.rect = self.surf.get_rect(center=(20, 410))
+        self.pos = my_vec((10, 385))
+        self.vel = my_vec(0, 0)
 
 
 class Platform(sprite.Sprite):
