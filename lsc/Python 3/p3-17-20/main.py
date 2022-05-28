@@ -47,3 +47,6 @@ while True:
 
     for entity in all_sprites:
         disp_srf.blit(entity.surf, entity.rect)
+
+    display.update()
+    framsper.tick(FPS)
