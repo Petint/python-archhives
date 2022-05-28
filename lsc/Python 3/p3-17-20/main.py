@@ -37,3 +37,10 @@ all_sprites.add(PT1)
 all_sprites.add(PL1)
 
 platforms = sprite.Group()
+platforms.add(PT1)
+
+while True:
+    for evnt in event.get():
+        if evnt.type == QUIT:
+            quit()
+    disp_srf.fill((0, 0, 0))
