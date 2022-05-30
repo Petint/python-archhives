@@ -1,21 +1,23 @@
 class Table:
     """Easy way of making unicode tables"""
 
-    def __init__(self, table_data: 'list[list]', length: int = 5):
-        self._t1 = __Table__(table_data, length)
+    def __init__(self, table_data: 'list[list]', length: int = 0):
+        if length == 0:
+            length = auto(table_data)
+        self._t1 = TableInternal(table_data, length)
 
     def make(self) -> str:
         """
         Generates the table string.
-        Desinged to be passed to print() i.e. print(table1.make())
+        Designed to be passed to print() i.e. print(table1.make())
         usage:
-            1. Turn list into table: able1 = Table[data]
+            1. Turn list into table: table1 = Table[data]
             2. print the table :     print(table1.make())
         """
         return self._t1.make()
 
 
-class __Table__:
+class TableInternal:
     """
     Internal class
     Use facade pls
@@ -71,3 +73,12 @@ class __Table__:
                 str_table += self.getseprow()
         str_table += self.getlastrow()
         return str_table
+
+
+def auto(data: 'list[list]') -> int:
+    """Finds the longest entry and returns it's length."""
+    lengths = []
+    for i in data:
+        for j in i:
+            lengths.append(len(str(j)))
+    return max(lengths)

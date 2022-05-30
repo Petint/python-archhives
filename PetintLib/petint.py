@@ -41,8 +41,7 @@ def filetofloat(file_name: str) -> 'list[float]':
     try:
         input_file = open('./' + file_name, "rt")  # Get file
     except FileNotFoundError:  # If Input file doesn't exist
-        print(f"Error, {file_name} can't be found")
-        return [1.0, 2.0, 3.0]
+        raise FileNotFoundError(f"Error, {file_name} can't be found")
     else:
         """return file data as a List of floats"""
         filedata = input_file.read()  # Store file contents
