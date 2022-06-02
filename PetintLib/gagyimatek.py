@@ -40,7 +40,7 @@ def oszt(a, b):
     """
     A világ legrosszabb osztómetódusa (a/b)
     """
-    if b == 0: raise TypeError("Nullahiba")
+    if b == 0: raise ZeroDivisionError("Nullahiba")
     _eredmeny = 0
     while a > 0:
         a = kivon(a, b)
