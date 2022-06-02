@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Updated PetintLib">
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén">
+      <change beforePath="$PROJECT_DIR$/.idea/PetintLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetintLib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pataky/2022/31. hét/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pataky/2022/31. hét/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,9 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -88,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653497806176</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="autotable.py Alignment options&#10;'W' - west (default option)&#10;'E' - east&#10;'c' - center">
+      <created>1654168218775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168218775</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén">
+      <created>1654168410774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168410774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +124,8 @@
     <MESSAGE value="Added Interpreter" />
     <MESSAGE value="autotable.py Now supports variable data lenght." />
     <MESSAGE value="Updated PetintLib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated PetintLib" />
+    <MESSAGE value="autotable.py Alignment options&#10;'W' - west (default option)&#10;'E' - east&#10;'c' - center" />
+    <MESSAGE value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
+    <option name="LAST_COMMIT_MESSAGE" value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
   </component>
 </project>

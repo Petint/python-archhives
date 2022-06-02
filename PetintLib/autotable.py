@@ -47,11 +47,10 @@ class TableInternal:
             elif self.align == 'e':  # Align east
                 row += (self.item_length - loclen) * " " + f'{self.tabledata[index][__i]}'
             elif self.align == 'c':  # Align center
+                if loclen == 2:  # Item is odd width
+                    row += ' '
                 row += (self.item_length - loclen) // 2 * " " + f'{self.tabledata[index][__i]}' + \
                        (self.item_length - loclen) // 2 * " "
-
-
-
         row += '│\n'
         return row
 
