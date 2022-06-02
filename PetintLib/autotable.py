@@ -1,10 +1,10 @@
 class Table:
     """Easy way of making unicode tables"""
 
-    def __init__(self, table_data: 'list[list]', length: int = 0):
+    def __init__(self, table_data: 'list[list]', length: int = 0, align: chr = 'w'):
         if length == 0:
             length = auto(table_data)
-        self._t1 = TableInternal(table_data, length)
+        self._t1 = TableInternal(table_data, length, align)
 
     def make(self) -> str:
         """
@@ -23,9 +23,10 @@ class TableInternal:
     Use facade pls
     """
 
-    def __init__(self, table_data: 'list[list]', length: int):
+    def __init__(self, table_data: 'list[list]', length: int, align: chr):
         self.tabledata = table_data
         self.item_length = length
+        self.align = align.lower()
 
     def getfirstrow(self) -> str:
         firstrow = '┌'
@@ -39,10 +40,18 @@ class TableInternal:
     def getrow(self, index: int) -> str:
         row = ''
         for __i in range(len(self.tabledata[index])):
+            loclen = len(str(self.tabledata[index][__i]))
             row += '│'
-            row += f'{self.tabledata[index][__i]}'
-            if len(str(self.tabledata[index][__i])) < self.item_length:
-                row += (self.item_length - len(str(self.tabledata[index][__i]))) * " "
+            if self.align == 'w':  # Align west
+                row += f'{self.tabledata[index][__i]}' + (self.item_length - loclen) * " "
+            elif self.align == 'e':  # Align east
+                row += (self.item_length - loclen) * " " + f'{self.tabledata[index][__i]}'
+            elif self.align == 'c':  # Align center
+                row += (self.item_length - loclen) // 2 * " " + f'{self.tabledata[index][__i]}' + \
+                       (self.item_length - loclen) // 2 * " "
+
+
+
         row += '│\n'
         return row
 

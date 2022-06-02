@@ -7,7 +7,7 @@ if __name__ == '__main__':
     size = 100
     test_data = [[x * size + y for y in range(size)] for x in range(size)]
     print(autotable.auto(test_data))
-    table1 = autotable.Table(test_data)
+    table1 = autotable.Table(test_data, align='e')
     print(table1.make())
 
     input("Testing gagyimatek.py...")
