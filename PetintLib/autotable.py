@@ -9,9 +9,9 @@ class Table:
     def make(self) -> str:
         """
         Generates the table string.
-        Designed to be passed to print() i.e. print(table1.make())
+        Designed to be passed to print() // print(table1.make())
         usage:
-            1. Turn list into table: table1 = Table[data]
+            1. Turn list into table: table1 = Table(data)
             2. print the table :     print(table1.make())
         """
         return self._t1.make()
