@@ -1,5 +1,5 @@
 from pygame import *
-import random
+from random import randint
 
 init()
 myVector = math.Vector2
@@ -72,7 +72,7 @@ all_sprites.add(P1)
 platforms = sprite.Group()
 platforms.add(PT1)
 
-for _ in range(6):
+for _ in range(randint(4, 6)):
     pl = Platform()
     platforms.add(pl)
     all_sprites.add(pl)
