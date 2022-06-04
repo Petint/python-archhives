@@ -1,5 +1,5 @@
 from pygame import *
-from random import randint
+from random import randint, randrange
 
 init()
 myVector = math.Vector2
@@ -68,6 +68,15 @@ class Platform(sprite.Sprite):
         self.rect = self.surf.get_rect(center=(WIDTH/2, HEIGHT-10))
 """
 
+
+def platgen():
+    while len(platforms) < 7:
+        width = randint(50, 100)
+        p = Platform()
+        p.rect.center = (randrange(0, WIDTH-width), randrange(-50, 0))
+        p.add(platforms, all_sprites)
+
+
 PT1 = Platform()
 PT1.surf = Surface((WIDTH, 20))
 PT1.surf.fill((255, 0, 0))
@@ -95,9 +104,17 @@ while True:
                 P1.jump()
     displaySurface.fill((0, 0, 0))
 
+    if P1.rect.top <= HEIGHT / 3:
+        P1.pos.y += abs(P1.vel.y)
+        for plat in platforms:
+            plat.rect.y += abs(P1.vel.y)
+            if plat.rect.top >= HEIGHT:
+                plat.kill()
+
     for entity in all_sprites:
         displaySurface.blit(entity.surf, entity.rect)
     P1.move()
     P1.update()
+    platgen()
     display.update()
     FramePerSec.tick(FPS)
