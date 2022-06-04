@@ -57,12 +57,21 @@ class Player(sprite.Sprite):
 class Platform(sprite.Sprite):
     def __init__(self):
         super().__init__()
+        self.surf = Surface((randint(50, 100), 12))
+        self.surf.fill((255, 0, 0))
+        self.rect = self.surf.get_rect(center=(randint(0, WIDTH-10) - 10, randint(0, HEIGHT-10)))
+
+"""
+        super().__init__()
         self.surf = Surface((WIDTH, 20))
         self.surf.fill((255, 0, 0))
         self.rect = self.surf.get_rect(center=(WIDTH/2, HEIGHT-10))
-
+"""
 
 PT1 = Platform()
+PT1.surf = Surface((WIDTH, 20))
+PT1.surf.fill((255, 0, 0))
+PT1.rect = PT1.surf.get_rect(center=(WIDTH/2, HEIGHT-10))
 P1 = Player()
 
 all_sprites = sprite.Group()
