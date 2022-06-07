@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Writing table to file: TableToFile.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/TableToFile.py" afterDir="false" />
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="3 width">
+      <change beforePath="$PROJECT_DIR$/table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/table.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654618447956</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="3 width">
+      <created>1654618772348</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618772348</updated>
+    </task>
+    <task id="LOCAL-00012" summary="3 width">
+      <created>1654618816086</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618816086</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +205,7 @@
     <MESSAGE value="Mindig eltolódik" />
     <MESSAGE value="Fixed center align" />
     <MESSAGE value="Writing table to file: TableToFile.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Writing table to file: TableToFile.py" />
+    <MESSAGE value="3 width" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 width" />
   </component>
 </project>
