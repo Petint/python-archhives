@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json read II">
       <change beforePath="$PROJECT_DIR$/tests/json interpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/json interpreter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654621028374</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="raw json read II">
+      <created>1654621285771</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621285771</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +298,7 @@
     <MESSAGE value="updated Table.__init__() docstring in autotable.py" />
     <MESSAGE value="Refac'd tests to tests folder" />
     <MESSAGE value="raw json" />
-    <option name="LAST_COMMIT_MESSAGE" value="raw json" />
+    <MESSAGE value="raw json read II" />
+    <option name="LAST_COMMIT_MESSAGE" value="raw json read II" />
   </component>
 </project>
