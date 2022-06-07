@@ -1,17 +1,17 @@
 class Table:
     """Easy way of making unicode tables"""
 
-    def __init__(self, table_data: 'list[list]', length: int = 0, align: chr = 'w'):
+    def __init__(self, table_data: 'list[list]', width: int = 0, align: chr = 'w'):
         """
             table_data: 'list[list[any]]' - Data for the table
 
-            length: int - Width of a cell, auto by default
+            width: int - Width of a cell, auto by default
 
             align: str - 'w' for west, 'e' - for east, 'c' - for center (west by default, center is kinda iffy.)
         """
-        if length == 0:
-            length = auto(table_data)
-        self._t1 = TableInternal(table_data, length, align)
+        if width == 0:
+            width = auto(table_data)
+        self._t1 = TableInternal(table_data, width, align)
 
     def make(self) -> str:
         """
