@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén">
-      <change beforePath="$PROJECT_DIR$/.idea/PetintLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetintLib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Optimized code in getrow() and Make()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654168410774</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Optimized code in getrow() and Make()">
+      <created>1654615561310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654615561310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,14 +131,15 @@
     <MESSAGE value="Updated PetintLib" />
     <MESSAGE value="autotable.py Alignment options&#10;'W' - west (default option)&#10;'E' - east&#10;'c' - center" />
     <MESSAGE value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
-    <option name="LAST_COMMIT_MESSAGE" value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
+    <MESSAGE value="Optimized code in getrow() and Make()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized code in getrow() and Make()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/autotable.py</url>
-          <line>78</line>
+          <line>83</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

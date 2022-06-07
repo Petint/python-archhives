@@ -49,7 +49,12 @@ class TableInternal:
                 row += diff * " " + f'{self.tabledata[index][__i]}'
             elif self.align == 'c':  # Align center
                 half = diff / 2
-                row += int(half) * " " + f'{self.tabledata[index][__i]}' + int(half) * " "
+                mg = int(half) * " "  # margin
+                if int(half) == half:
+                    row += mg + f'{self.tabledata[index][__i]}' + mg
+                else:
+                    # row += mg + "  " f'{self.tabledata[index][__i]}' + "  " + mg
+                    row += mg + "\t" f'{self.tabledata[index][__i]}' +  mg
         row += '│\n'
         return row
 
