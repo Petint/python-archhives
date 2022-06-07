@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json Table I">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/json interpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/json interpreter.py" afterDir="false" />
-    </list>
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json Table II" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654621933288</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="raw json Table II">
+      <created>1654623120927</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623120927</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +320,7 @@
     <MESSAGE value="raw json read II" />
     <MESSAGE value="raw json read III" />
     <MESSAGE value="raw json Table I" />
-    <option name="LAST_COMMIT_MESSAGE" value="raw json Table I" />
+    <MESSAGE value="raw json Table II" />
+    <option name="LAST_COMMIT_MESSAGE" value="raw json Table II" />
   </component>
 </project>
