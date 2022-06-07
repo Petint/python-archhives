@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="updated Table.__init__() docstring in autotable.py">
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TableToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TableToFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/table.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/json interpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/json interpreter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "E:/pythonproject/python-archhives/PetintLib/tests"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.json interpreter">
     <configuration name="TableToFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PetintLib" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +61,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="E:\pythonproject\python-archhives\PetintLib\tests\TableToFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="json interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PetintLib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/json interpreter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json interpreter" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.TableToFile" />
         <item itemvalue="Python.test" />
@@ -218,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654619194014</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refac'd tests to tests folder">
+      <created>1654620743100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654620743100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="raw json">
+      <created>1654621028374</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621028374</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +290,8 @@
     <MESSAGE value="3 width" />
     <MESSAGE value="3 width file" />
     <MESSAGE value="updated Table.__init__() docstring in autotable.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Table.__init__() docstring in autotable.py" />
+    <MESSAGE value="Refac'd tests to tests folder" />
+    <MESSAGE value="raw json" />
+    <option name="LAST_COMMIT_MESSAGE" value="raw json" />
   </component>
 </project>
