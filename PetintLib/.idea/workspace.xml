@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json Table II" />
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TableToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TableToFile.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,7 +53,7 @@
       <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.json interpreter">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="TableToFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PetintLib" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.json interpreter" />
         <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.json interpreter" />
         <item itemvalue="Python.TableToFile" />
         <item itemvalue="Python.test" />
       </list>
@@ -287,7 +296,63 @@
       <option name="project" value="LOCAL" />
       <updated>1654623120927</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="raw json Table II">
+      <created>1654623551896</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623551896</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Change length to width">
+      <created>1654623653462</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623653462</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps...">
+      <created>1654624282869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1654624282869</updated>
+    </task>
+    <task id="LOCAL-00024" summary="horizontal alignment check">
+      <created>1654624743980</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654624743980</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Vertical alignment docstring">
+      <created>1654625189147</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654625189147</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Vertical alignment... done?">
+      <created>1654626398126</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1654626398126</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tests">
+      <created>1654628893643</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654628893643</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tests">
+      <created>1654629455387</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654629455387</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +386,12 @@
     <MESSAGE value="raw json read III" />
     <MESSAGE value="raw json Table I" />
     <MESSAGE value="raw json Table II" />
-    <option name="LAST_COMMIT_MESSAGE" value="raw json Table II" />
+    <MESSAGE value="Change length to width" />
+    <MESSAGE value="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps..." />
+    <MESSAGE value="horizontal alignment check" />
+    <MESSAGE value="Vertical alignment docstring" />
+    <MESSAGE value="Vertical alignment... done?" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
 </project>

@@ -1,17 +1,31 @@
 class Table:
-    """Easy way of making unicode tables"""
+    """
+table_data: 'list[list[any]]' - Data for the table
 
-    def __init__(self, table_data: 'list[list]', length: int = 0, align: chr = 'w'):
+width: int - Width of a cell, auto by default
+
+height: int - Height of cell, 1 by default.
+
+align: str - Horizontal: 'w' for west, 'e' - for east, 'c' - for center (center is kinda iffy.)
+             Vertical: 'T' for fop, 'B' for bottom, 'C' for center, ('WB' by default)
+
+    """
+
+    def __init__(self, table_data: 'list[list]', width: int = 0, height: int = 1, align: str = 'WB'):
         """
-            table_data: 'list[list[any]]' - Data for the table
+table_data: 'list[list[any]]' - Data for the table
 
-            length: int - Width of a cell, auto by default
+width: int - Width of a cell, auto by default
 
-            align: str - 'w' for west, 'e' - for east, 'c' - for center (west by default, center is kinda iffy.)
+height: int - Height of cell, 1 by default.
+
+align: str - Horizontal: 'w' for west, 'e' - for east, 'c' - for center (center is kinda iffy.)
+                 Vertical: 'T' for fop, 'B' for bottom, 'C' for center, ('WB' by default)
+
         """
-        if length == 0:
-            length = auto(table_data)
-        self._t1 = TableInternal(table_data, length, align)
+        if width == 0:
+            width = auto(table_data)
+        self._t1 = TableInternal(table_data, width, height, align)
 
     def make(self) -> str:
         """
@@ -30,9 +44,10 @@ class TableInternal:
     Use facade pls
     """
 
-    def __init__(self, table_data: 'list[list]', length: int, align: chr):
+    def __init__(self, table_data: 'list[list]', length: int, height: int, align: str):
         self.tabledata = table_data
         self.item_length = length
+        self.cell_height = height
         self.align = align.lower()
 
     def getfirstrow(self) -> str:
@@ -46,24 +61,35 @@ class TableInternal:
 
     def getrow(self, index: int) -> str:
         row = ''
+        erow = len(self.tabledata[0]) * ("│" + self.item_length * " ") + "│\n"
         for __i in range(len(self.tabledata[index])):
             loclen = len(str(self.tabledata[index][__i]))
             diff = self.item_length - loclen
             row += '│'
-            if self.align == 'w':  # Align west
+            if self.align[0] == 'w':  # Align west
                 row += f'{self.tabledata[index][__i]}' + diff * " "
-            elif self.align == 'e':  # Align east
+            elif self.align[0] == 'e':  # Align east
                 row += diff * " " + f'{self.tabledata[index][__i]}'
-            elif self.align == 'c':  # Align center /// Credit goes to KillerCat#7249
+            elif self.align[0] == 'c':  # Align center /// Credit goes to KillerCat#7249
                 half = diff / 2
                 mg = int(half) * " "  # margin
                 if int(half) == half:
                     row += mg + f'{self.tabledata[index][__i]}' + mg
                 else:
                     row += mg + "  " f'{self.tabledata[index][__i]}' + " " + mg
-                    # row += mg + "\t" f'{self.tabledata[index][__i]}' +  mg
+            else:
+                raise ValueError(("Invalid horizontal alignment", self.align[0], "Must be 'E', 'W' or 'C'"))
         row += '│\n'
-        return row
+        if self.align[1] == 't':  # Horizontal align Top
+            frow = row + (self.cell_height - 1) * erow
+        elif self.align[1] == 'b':  # Horizontal align Bottom
+            frow = (self.cell_height - 1) * erow + row
+        elif self.align[1] == 'c':  # Horizontal align Center
+            half = self.cell_height // 2
+            frow = (self.cell_height - half - 1) * erow + row + half * erow
+        else:
+            raise ValueError(("Invalid vertical alignment", self.align[1], "Must be 'T', 'B' or 'C'"))
+        return frow
 
     def getlastrow(self) -> str:
         lastrow = '└'
