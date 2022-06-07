@@ -8,8 +8,8 @@ class Table:
 
     def make(self) -> str:
         """
-        Generates the table string.
-        Designed to be passed to print() // print(table1.make())
+        Generates the table.
+        Returns string
         usage:
             1. Turn list into table: table1 = Table(data)
             2. print the table :     print(table1.make())
@@ -41,16 +41,15 @@ class TableInternal:
         row = ''
         for __i in range(len(self.tabledata[index])):
             loclen = len(str(self.tabledata[index][__i]))
+            diff = self.item_length - loclen
             row += '│'
             if self.align == 'w':  # Align west
-                row += f'{self.tabledata[index][__i]}' + (self.item_length - loclen) * " "
+                row += f'{self.tabledata[index][__i]}' + diff * " "
             elif self.align == 'e':  # Align east
-                row += (self.item_length - loclen) * " " + f'{self.tabledata[index][__i]}'
+                row += diff * " " + f'{self.tabledata[index][__i]}'
             elif self.align == 'c':  # Align center
-                if loclen == 2:  # Item is odd width
-                    row += ' '
-                row += (self.item_length - loclen) // 2 * " " + f'{self.tabledata[index][__i]}' + \
-                       (self.item_length - loclen) // 2 * " "
+                half = diff / 2
+                row += int(half) * " " + f'{self.tabledata[index][__i]}' + int(half) * " "
         row += '│\n'
         return row
 
@@ -74,17 +73,18 @@ class TableInternal:
 
     def make(self) -> str:
         str_table = ''
-        str_table += self.getfirstrow()
-        for x in range(len(self.tabledata)):
+        str_table += self.getfirstrow()  # Head
+        sepr = self.getseprow()  # Separator row
+        for x in range(len(self.tabledata)):  # Main content
             str_table += self.getrow(x)
             if x < len(self.tabledata) - 1:
-                str_table += self.getseprow()
-        str_table += self.getlastrow()
+                str_table += sepr
+        str_table += self.getlastrow()  # Footer
         return str_table
 
 
 def auto(data: 'list[list]') -> int:
-    """Finds the longest entry and returns it's length."""
+    """Finds the longest entry and returns its length."""
     lengths = []
     for i in data:
         for j in i:

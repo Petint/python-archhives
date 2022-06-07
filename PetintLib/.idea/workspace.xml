@@ -128,4 +128,15 @@
     <MESSAGE value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
     <option name="LAST_COMMIT_MESSAGE" value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autotable.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
