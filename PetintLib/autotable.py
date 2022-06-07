@@ -48,15 +48,16 @@ class TableInternal:
 
     def getrow(self, index: int) -> str:
         row = ''
+        erow = len(self.tabledata[0]) * ("│" + self.item_length * " ") + "│\n"
         for __i in range(len(self.tabledata[index])):
             loclen = len(str(self.tabledata[index][__i]))
             diff = self.item_length - loclen
             row += '│'
-            if self.align == 'w':  # Align west
+            if self.align[0] == 'w':  # Align west
                 row += f'{self.tabledata[index][__i]}' + diff * " "
-            elif self.align == 'e':  # Align east
+            elif self.align[0] == 'e':  # Align east
                 row += diff * " " + f'{self.tabledata[index][__i]}'
-            elif self.align == 'c':  # Align center /// Credit goes to KillerCat#7249
+            elif self.align[0] == 'c':  # Align center /// Credit goes to KillerCat#7249
                 half = diff / 2
                 mg = int(half) * " "  # margin
                 if int(half) == half:
@@ -64,7 +65,10 @@ class TableInternal:
                 else:
                     row += mg + "  " f'{self.tabledata[index][__i]}' + " " + mg
                     # row += mg + "\t" f'{self.tabledata[index][__i]}' +  mg
+            else:
+                raise ValueError(("Invalid horizontal alignment", self.align[0], "Must be 'E', 'W' or 'C'"))
         row += '│\n'
+        row += erow
         return row
 
     def getlastrow(self) -> str:
