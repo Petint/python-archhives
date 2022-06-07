@@ -53,8 +53,8 @@ class TableInternal:
                 if int(half) == half:
                     row += mg + f'{self.tabledata[index][__i]}' + mg
                 else:
-                    # row += mg + "  " f'{self.tabledata[index][__i]}' + "  " + mg
-                    row += mg + "\t" f'{self.tabledata[index][__i]}' +  mg
+                    row += mg + "  " f'{self.tabledata[index][__i]}' + " " + mg
+                    # row += mg + "\t" f'{self.tabledata[index][__i]}' +  mg
         row += '│\n'
         return row
 
