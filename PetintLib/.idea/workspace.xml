@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Mindig eltolódik">
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Fixed center align">
+      <change afterPath="$PROJECT_DIR$/TableToFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -117,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654616837855</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed center align">
+      <created>1654617625735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654617625735</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +154,8 @@
     <MESSAGE value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
     <MESSAGE value="Optimized code in getrow() and Make()" />
     <MESSAGE value="Mindig eltolódik" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mindig eltolódik" />
+    <MESSAGE value="Fixed center align" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed center align" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

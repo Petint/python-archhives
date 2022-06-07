@@ -47,7 +47,7 @@ class TableInternal:
                 row += f'{self.tabledata[index][__i]}' + diff * " "
             elif self.align == 'e':  # Align east
                 row += diff * " " + f'{self.tabledata[index][__i]}'
-            elif self.align == 'c':  # Align center
+            elif self.align == 'c':  # Align center /// Credit goes to KillerCat#7249
                 half = diff / 2
                 mg = int(half) * " "  # margin
                 if int(half) == half:
