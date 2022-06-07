@@ -36,6 +36,7 @@ class TableInternal:
     def __init__(self, table_data: 'list[list]', length: int, height: int, align: str):
         self.tabledata = table_data
         self.item_length = length
+        self.cell_height = height
         self.align = align.lower()
 
     def getfirstrow(self) -> str:
@@ -68,8 +69,16 @@ class TableInternal:
             else:
                 raise ValueError(("Invalid horizontal alignment", self.align[0], "Must be 'E', 'W' or 'C'"))
         row += '│\n'
-        row += erow
-        return row
+        if self.align[1] == 't':  # Horizontal align Top
+            frow = row + (self.cell_height - 1) * erow
+        elif self.align[1] == 'b':  # Horizontal align Bottom
+            frow = (self.cell_height - 1) * erow + row
+        elif self.align[1] == 'c':  # Horizontal align Center
+            half = self.cell_height // 2
+            frow = (self.cell_height - half - 1) * erow + row + half * erow
+        else:
+            raise ValueError(("Invalid vertical alignment", self.align[1], "Must be 'T', 'B' or 'C'"))
+        return frow
 
     def getlastrow(self) -> str:
         lastrow = '└'

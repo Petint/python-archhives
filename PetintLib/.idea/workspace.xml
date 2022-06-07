@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="horizontal alignment check">
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Vertical alignment docstring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654624743980</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Vertical alignment docstring">
+      <created>1654625189147</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654625189147</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +368,7 @@
     <MESSAGE value="Change length to width" />
     <MESSAGE value="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps..." />
     <MESSAGE value="horizontal alignment check" />
-    <option name="LAST_COMMIT_MESSAGE" value="horizontal alignment check" />
+    <MESSAGE value="Vertical alignment docstring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vertical alignment docstring" />
   </component>
 </project>
