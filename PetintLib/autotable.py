@@ -1,16 +1,27 @@
 class Table:
-    """Easy way of making unicode tables"""
+    """
+table_data: 'list[list[any]]' - Data for the table
+
+width: int - Width of a cell, auto by default
+
+height: int - Height of cell, 1 by default.
+
+align: str - Horizontal: 'w' for west, 'e' - for east, 'c' - for center (center is kinda iffy.)
+             Vertical: 'T' for fop, 'B' for bottom, 'C' for center, ('WB' by default)
+
+    """
 
     def __init__(self, table_data: 'list[list]', width: int = 0, height: int = 1, align: str = 'WB'):
         """
-            table_data: 'list[list[any]]' - Data for the table
+table_data: 'list[list[any]]' - Data for the table
 
-            width: int - Width of a cell, auto by default
+width: int - Width of a cell, auto by default
 
-            height: int - Height of cell, 1 by default.
+height: int - Height of cell, 1 by default.
 
-            align: str - Horizontal: 'w' for west, 'e' - for east, 'c' - for center (center is kinda iffy.)
-                         Vertical: 'T' for fop, 'B' for bottom, 'C' for center, ('WB' by default)
+align: str - Horizontal: 'w' for west, 'e' - for east, 'c' - for center (center is kinda iffy.)
+                 Vertical: 'T' for fop, 'B' for bottom, 'C' for center, ('WB' by default)
+
         """
         if width == 0:
             width = auto(table_data)
