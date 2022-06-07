@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json read II">
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="raw json read III">
       <change beforePath="$PROJECT_DIR$/tests/json interpreter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/json interpreter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654621285771</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="raw json read III">
+      <created>1654621867261</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621867262</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +306,7 @@
     <MESSAGE value="Refac'd tests to tests folder" />
     <MESSAGE value="raw json" />
     <MESSAGE value="raw json read II" />
-    <option name="LAST_COMMIT_MESSAGE" value="raw json read II" />
+    <MESSAGE value="raw json read III" />
+    <option name="LAST_COMMIT_MESSAGE" value="raw json read III" />
   </component>
 </project>
