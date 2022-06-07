@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps...">
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="horizontal alignment check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
     </list>
@@ -52,7 +52,7 @@
       <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.json interpreter">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="TableToFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PetintLib" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.json interpreter" />
         <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.json interpreter" />
         <item itemvalue="Python.TableToFile" />
         <item itemvalue="Python.test" />
       </list>
@@ -316,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654624282869</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="horizontal alignment check">
+      <created>1654624743980</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654624743980</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +359,7 @@
     <MESSAGE value="raw json Table II" />
     <MESSAGE value="Change length to width" />
     <MESSAGE value="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps..." />
+    <MESSAGE value="horizontal alignment check" />
+    <option name="LAST_COMMIT_MESSAGE" value="horizontal alignment check" />
   </component>
 </project>

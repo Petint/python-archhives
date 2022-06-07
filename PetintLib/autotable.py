@@ -1,7 +1,7 @@
 class Table:
     """Easy way of making unicode tables"""
 
-    def __init__(self, table_data: 'list[list]', width: int = 0, height: int = 1, align: chr = 'w'):
+    def __init__(self, table_data: 'list[list]', width: int = 0, height: int = 1, align: str = 'WB'):
         """
             table_data: 'list[list[any]]' - Data for the table
 
@@ -9,7 +9,8 @@ class Table:
 
             height: int - Height of cell, 1 by default.
 
-            align: chr - 'w' for west, 'e' - for east, 'c' - for center (west by default, center is kinda iffy.)
+            align: str - Horizontal: 'w' for west, 'e' - for east, 'c' - for center (center is kinda iffy.)
+                         Vertical: 'T' for fop, 'B' for bottom, 'C' for center, ('WB' by default)
         """
         if width == 0:
             width = auto(table_data)
@@ -32,7 +33,7 @@ class TableInternal:
     Use facade pls
     """
 
-    def __init__(self, table_data: 'list[list]', length: int, height: int, align: chr):
+    def __init__(self, table_data: 'list[list]', length: int, height: int, align: str):
         self.tabledata = table_data
         self.item_length = length
         self.align = align.lower()
@@ -64,7 +65,6 @@ class TableInternal:
                     row += mg + f'{self.tabledata[index][__i]}' + mg
                 else:
                     row += mg + "  " f'{self.tabledata[index][__i]}' + " " + mg
-                    # row += mg + "\t" f'{self.tabledata[index][__i]}' +  mg
             else:
                 raise ValueError(("Invalid horizontal alignment", self.align[0], "Must be 'E', 'W' or 'C'"))
         row += '│\n'
