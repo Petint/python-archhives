@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Fixed center align">
-      <change afterPath="$PROJECT_DIR$/TableToFile.py" afterDir="false" />
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Writing table to file: TableToFile.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/TableToFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/table.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,28 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.TableToFile">
+    <configuration name="TableToFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PetintLib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TableToFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PetintLib" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TableToFile" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -131,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654617625735</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Writing table to file: TableToFile.py">
+      <created>1654618284876</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618284876</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,17 +184,7 @@
     <MESSAGE value="Optimized code in getrow() and Make()" />
     <MESSAGE value="Mindig eltolódik" />
     <MESSAGE value="Fixed center align" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed center align" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/autotable.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Writing table to file: TableToFile.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing table to file: TableToFile.py" />
   </component>
 </project>
