@@ -6,5 +6,5 @@ jsondata = json.load(jsonfile)
 jsonfile.close()
 print(jsondata)
 
-json_table = Table(jsondata)
+json_table = Table(jsondata, length=20)
 print(json_table.make())
