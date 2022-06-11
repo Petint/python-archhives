@@ -11,7 +11,6 @@ WIDTH = 400
 ACC = 0.5
 FRIC = -0.12
 FPS = 60
-
 FramePerSec = time.Clock()
 displaySurface = display.set_mode((WIDTH, HEIGHT))
 display.set_caption("Platformer")
@@ -24,11 +23,9 @@ class Player(sprite.Sprite):
         super().__init__()
         self.surf = transform.scale(image.load("assets/player.png"), (40, 40))
         self.rect = self.surf.get_rect(center=(10, 420))
-
         self.pos = myVector((10, 385))
         self.vel = myVector(0, 0)
         self.acc = myVector(0, 0)
-
         self.jumping = False
         self.score = 0
 
@@ -46,7 +43,6 @@ class Player(sprite.Sprite):
             self.pos.x = 0
         if self.pos.x < 0:
             self.pos.x = WIDTH
-
         self.rect.midbottom = self.pos
 
     def update(self):
@@ -71,12 +67,11 @@ class Player(sprite.Sprite):
 class Platform(sprite.Sprite):
     def __init__(self):
         super().__init__()
-
         self.surf = transform.scale(image.load("assets/platform.png"), (randint(50, 120), 18))
         self.rect = self.surf.get_rect(center=(randint(0, WIDTH - 10),
                                                randint(0, HEIGHT - 10)))
         self.speed = randint(-1, 1)
-        self.moving = True
+        self.moving = False
 
     def move(self):
         hits = self.rect.colliderect(P1.rect)
@@ -99,8 +94,7 @@ def platform_generator():
             p = Platform()
             p.rect.center = (randrange(0, WIDTH - width), randrange(-50, 0))
             c = check(p, platforms)
-        platforms.add(p)
-        all_sprites.add(p)
+            p.add(platforms, all_sprites)
 
 
 def check(platform, groupies):
@@ -115,18 +109,16 @@ def check(platform, groupies):
                 return True
 
 
+platforms = sprite.Group()
+all_sprites = sprite.Group()
 PT1 = Platform()
 PT1.surf = Surface((WIDTH, 20))
 PT1.surf.fill((255, 0, 0))
 PT1.rect = PT1.surf.get_rect(center=(WIDTH / 2, HEIGHT - 10))
 PT1.moving = False
 P1 = Player()
-
-all_sprites = sprite.Group()
 all_sprites.add(PT1)
 all_sprites.add(P1)
-
-platforms = sprite.Group()
 platforms.add(PT1)
 
 for x in range(randint(5, 6)):
@@ -150,11 +142,9 @@ while True:
             if evnt.key == K_SPACE:
                 P1.cancel_jump()
     displaySurface.blit(background, (-50, 0))
-
     f = font.SysFont("Verdana", 20)
     g = f.render(str(P1.score), True, (0, 0, 0))
     displaySurface.blit(g, (WIDTH/2, 10))
-
     if P1.rect.top > HEIGHT:
         for entity in all_sprites:
             entity.kill()
@@ -164,7 +154,6 @@ while True:
             tm.sleep(1)
             quit()
             sys.exit(0)
-
     if P1.rect.top <= HEIGHT / 3:
         P1.pos.y += abs(P1.vel.y)
         for plat in platforms:
@@ -172,12 +161,10 @@ while True:
             if plat.rect.top >= HEIGHT:
                 P1.score += 1
                 plat.kill()
-
     P1.update()
     platform_generator()
     for entity in all_sprites:
         displaySurface.blit(entity.surf, entity.rect)
         entity.move()
-
     display.update()
     FramePerSec.tick(FPS)
