@@ -88,7 +88,6 @@ class Platform(sprite.Sprite):
 def platform_generator():
     while len(platforms) < 7:
         width = randrange(50, 100)
-        p = Platform()
         c = True
         while c:
             p = Platform()
