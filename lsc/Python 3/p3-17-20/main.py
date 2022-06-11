@@ -96,7 +96,7 @@ def platform_generator():
             p.add(platforms, all_sprites)
 
 
-def check(platform, groupies):
+def check(platform: Platform, groupies: sprite.Group):
     if sprite.spritecollideany(platform, groupies):
         return True
     else:
