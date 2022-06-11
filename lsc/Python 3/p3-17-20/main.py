@@ -1,7 +1,7 @@
 from pygame import *
 from random import randint, randrange
 import sys
-import time as tm 
+import time as tm
 
 
 init()
