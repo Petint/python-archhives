@@ -148,10 +148,10 @@ while True:
     if P1.rect.top > HEIGHT:
         for entity in all_sprites:
             entity.kill()
-            tm.sleep(1)
+            tm.sleep(0.1)
             displaySurface.fill((255, 0, 0))
             display.update()
-            tm.sleep(1)
+            tm.sleep(0.1)
             quit()
             sys.exit(0)
     if P1.rect.top <= HEIGHT / 3:
