@@ -4,19 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén">
-      <change beforePath="$PROJECT_DIR$/.idea/PetintLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetintLib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autotable.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TableToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TableToFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -30,10 +40,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;E:/pythonproject/python-archhives/PetintLib/tests&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="TableToFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PetintLib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\pythonproject\python-archhives\PetintLib\tests\TableToFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="json interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PetintLib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/json interpreter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PetintLib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PetintLib" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="E:\pythonproject\python-archhives\PetintLib\tests\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,6 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.json interpreter" />
+        <item itemvalue="Python.TableToFile" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -105,7 +191,168 @@
       <option name="project" value="LOCAL" />
       <updated>1654168410774</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Optimized code in getrow() and Make()">
+      <created>1654615561310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654615561310</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mindig eltolódik">
+      <created>1654616837855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654616837855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed center align">
+      <created>1654617625735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654617625735</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Writing table to file: TableToFile.py">
+      <created>1654618284876</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618284876</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Writing table to file: TableToFile.py">
+      <created>1654618447956</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618447956</updated>
+    </task>
+    <task id="LOCAL-00011" summary="3 width">
+      <created>1654618772348</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618772348</updated>
+    </task>
+    <task id="LOCAL-00012" summary="3 width">
+      <created>1654618816086</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618816086</updated>
+    </task>
+    <task id="LOCAL-00013" summary="3 width file">
+      <created>1654618868905</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654618868905</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated Table.__init__() docstring in autotable.py">
+      <created>1654619194014</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654619194014</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refac'd tests to tests folder">
+      <created>1654620743100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654620743100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="raw json">
+      <created>1654621028374</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621028374</updated>
+    </task>
+    <task id="LOCAL-00017" summary="raw json read II">
+      <created>1654621285771</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621285771</updated>
+    </task>
+    <task id="LOCAL-00018" summary="raw json read III">
+      <created>1654621867261</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621867262</updated>
+    </task>
+    <task id="LOCAL-00019" summary="raw json Table I">
+      <created>1654621933288</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654621933288</updated>
+    </task>
+    <task id="LOCAL-00020" summary="raw json Table II">
+      <created>1654623120927</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623120927</updated>
+    </task>
+    <task id="LOCAL-00021" summary="raw json Table II">
+      <created>1654623551896</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623551896</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Change length to width">
+      <created>1654623653462</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623653462</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps...">
+      <created>1654624282869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1654624282869</updated>
+    </task>
+    <task id="LOCAL-00024" summary="horizontal alignment check">
+      <created>1654624743980</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654624743980</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Vertical alignment docstring">
+      <created>1654625189147</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654625189147</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Vertical alignment... done?">
+      <created>1654626398126</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1654626398126</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tests">
+      <created>1654628893643</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654628893643</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tests">
+      <created>1654629455387</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654629455387</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +373,25 @@
     <MESSAGE value="Updated PetintLib" />
     <MESSAGE value="autotable.py Alignment options&#10;'W' - west (default option)&#10;'E' - east&#10;'c' - center" />
     <MESSAGE value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
-    <option name="LAST_COMMIT_MESSAGE" value="gagyimatek.py most ZeroDivisionError-t ad &#10;nullával való osztás esetén" />
+    <MESSAGE value="Optimized code in getrow() and Make()" />
+    <MESSAGE value="Mindig eltolódik" />
+    <MESSAGE value="Fixed center align" />
+    <MESSAGE value="Writing table to file: TableToFile.py" />
+    <MESSAGE value="3 width" />
+    <MESSAGE value="3 width file" />
+    <MESSAGE value="updated Table.__init__() docstring in autotable.py" />
+    <MESSAGE value="Refac'd tests to tests folder" />
+    <MESSAGE value="raw json" />
+    <MESSAGE value="raw json read II" />
+    <MESSAGE value="raw json read III" />
+    <MESSAGE value="raw json Table I" />
+    <MESSAGE value="raw json Table II" />
+    <MESSAGE value="Change length to width" />
+    <MESSAGE value="Add height attribute&#10;Oh, no! now I'll have to do vertical aligns, line breaks, soft wraps..." />
+    <MESSAGE value="horizontal alignment check" />
+    <MESSAGE value="Vertical alignment docstring" />
+    <MESSAGE value="Vertical alignment... done?" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
 </project>
