@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="updated json json interpreter.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84000c69-36da-4136-907f-e71fb84c2299" name="Changes" comment="Egy kor vége" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,11 +36,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;E:/pythonproject/python-archhives/PetintLib/tests&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\pythonproject\python-archhives\PetintLib\tests" />
@@ -350,12 +348,12 @@
       <option name="project" value="LOCAL" />
       <updated>1654629455387</updated>
     </task>
-    <task id="LOCAL-00029" summary="updated json json interpreter.py">
-      <created>1654630229434</created>
+    <task id="LOCAL-00029" summary="Egy kor vége">
+      <created>1654938264767</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1654630229434</updated>
+      <updated>1654938264767</updated>
     </task>
     <option name="localTasksCounter" value="30" />
     <servers />
@@ -370,6 +368,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -397,7 +396,7 @@
     <MESSAGE value="Vertical alignment docstring" />
     <MESSAGE value="Vertical alignment... done?" />
     <MESSAGE value="tests" />
-    <MESSAGE value="updated json json interpreter.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated json json interpreter.py" />
+    <MESSAGE value="Egy kor vége" />
+    <option name="LAST_COMMIT_MESSAGE" value="Egy kor vége" />
   </component>
 </project>
