@@ -1,8 +1,8 @@
 from PIL import Image
+from math import sqrt
 
 with open('pi.txt', 'rt') as pifile:
-    pi = int(pifile.read())
+    piBytes = bytes(pifile.read(), pifile.encoding)
 
-piBytes = pi.to_bytes(2, 'big')
-im = Image.open(piBytes)
+im = Image.frombytes("RGB", (100, 100), piBytes)
 print(im.format, im.size, im.mode)
