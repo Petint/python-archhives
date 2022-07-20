@@ -1,8 +1,8 @@
 from PIL import Image
 
 # Get pi
-with open('pi.txt', 'rt') as pifile:
-    piBytes = bytes(pifile.read(), pifile.encoding)
+with open('pi.txt', 'rb') as pifile:
+    piBytes = pifile.read()
 # Convert pi to image
 size = 892
 im = Image.frombytes("1", (size, size), piBytes)
