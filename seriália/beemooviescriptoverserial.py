@@ -1,7 +1,7 @@
 import serial
 
-with open('beemooviescript.txt', encoding='utf-8') as bmsf:
+with open('beemoveiscript.txt', 'rb') as bmsf:
     bees = bmsf.read()
 com = serial.Serial('COM1', 9600)
 for bee in bees.splitlines():
-    com.write(bee)
+    com.write(bee + b'\n\r')
