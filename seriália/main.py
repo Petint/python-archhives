@@ -11,6 +11,8 @@ if __name__ == '__main__':
     ser.write(bytes("Add meg, hogy mi a neved: ", encoding='utf-8'))
     line = ser.readline()
     ser.write(bytes(f'\n\rHi, {line.decode()} \r', encoding='utf-8'))
+    ser.close()  # close port
+    ser.close()  # close port
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
