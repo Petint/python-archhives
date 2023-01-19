@@ -8,17 +8,26 @@ Ha megadta az 1, 2 vagy 3-t mint választ, akkor írjuk ki, hogy helyes vagy hel
 """
 
 
-def get_questions():
-    with open('python-teszt.txt', 'rt', encoding='UTF-8') as question_file:
+def get_questions(file_name: str):
+    """Read file"""
+    with open(file_name, 'rt', encoding='UTF-8') as question_file:
         _ = question_file.readline()
         questions = [question for question in question_file]
         questions = [question.replace('\n', '') for question in questions]
         return [question.split(';') for question in questions]
 
 
+def ask(question):
+    print(question)
+    input('paused---')
+    return 1
+
+
 def main():
-    questions = get_questions()
-    print(questions)
+    questions = get_questions('python-teszt.txt')
+    score = 0
+    for question in questions:
+        score += ask(question)
 
 
 if __name__ == '__main__':
