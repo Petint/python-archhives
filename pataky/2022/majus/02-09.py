@@ -5,8 +5,8 @@ from random import randint
 Feladat leírás:
 Adott az alábbi adatsor. Írjuk ki, hogy hány egyjegyű, hány kétjegyű és hány háromjegyű szám van benne.
 """
-# adatsor = [210, 23, 124, 3, 5, 567, 56, 87, 9, 7, 3, 45, 678, 543, 24, 3, 567, 2, 1, 12, 48, 9, 12, 345, 64, 87, 84, 347, 56, 2, 3, 14, 578, 93, 432, 34, 567, 43]
-adatsor = [randint(-999, 999) for _ in range(1000000000)]
+# adatsor = (210, 23, 124, 3, 5, 567, 56, 87, 9, 7, 3, 45, 678, 543, 24, 3, 567, 2, 1, 12, 48, 9, 12, 345, 64, 87, 84, 347, 56, 2, 3, 14, 578, 93, 432, 34, 567, 43)
+adatsor = (randint(-999, 999) for _ in range(1000000000))
 count1 = 0
 count2 = 0
 count3 = 0
