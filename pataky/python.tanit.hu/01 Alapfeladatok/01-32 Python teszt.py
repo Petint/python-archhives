@@ -22,8 +22,11 @@ def ask(question):
     for i, part in enumerate(question[:4]):
         if i: print(i, '.', sep='', end=' ')
         print(part)
-    input('Melyik a helyes válasz (1, 2, 3)?')
-    return 1
+    dear_user = input('Melyik a helyes valasz (1, 2, 3): ')
+    if dear_user not in ['1', '2', '3']:
+        print("Nincs ilyen lehetoseg!")
+        _, dear_user = ask(question)
+    return int(dear_user == dear_user), question
 
 
 def main():
