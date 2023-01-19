@@ -21,6 +21,10 @@ Piros Adél\t29\tDebrecen
 Bíró Zsolt\t16\tBudapest
 Szabados Attila\t25\tDebrecen
 """
+
+"""Ebből a listából programmal számold meg hány debreceni van.
+A program akkor is helyesen működjön, ha az adatlista módosul."""
+
 debre_people = 0
 for ppl in dataList.splitlines()[1:]:
     nev, kor, city = ppl.split('\t')
