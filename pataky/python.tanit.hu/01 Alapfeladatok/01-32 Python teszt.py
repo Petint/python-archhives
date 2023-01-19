@@ -18,8 +18,11 @@ def get_questions(file_name: str):
 
 
 def ask(question):
-    print(question)
-    input('paused---')
+    print('Az alábbi műveletnek mi lessz az eredménye?')
+    for i, part in enumerate(question[:4]):
+        if i: print(i, '.', sep='', end=' ')
+        print(part)
+    input('Melyik a helyes válasz (1, 2, 3)?')
     return 1
 
 
@@ -28,6 +31,7 @@ def main():
     score = 0
     for question in questions:
         score += ask(question)
+    print()
 
 
 if __name__ == '__main__':
