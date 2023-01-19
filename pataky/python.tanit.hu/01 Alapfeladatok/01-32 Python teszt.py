@@ -33,8 +33,9 @@ def main():
     questions = get_questions('python-teszt.txt')
     score = 0
     for question in questions:
-        score += ask(question)
+        score += ask(question)[0]
     print()
+    print(score, ' Pontot értél el.')
 
 
 if __name__ == '__main__':
