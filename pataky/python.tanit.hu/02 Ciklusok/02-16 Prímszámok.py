@@ -5,8 +5,11 @@ Abban biztosak lehetünk, hogy a felhasználó egynél nagyobb egész számot ad
 
 
 def is_prime():
-    print(number)
-    return False
+    divider = 0
+    for whatever in range(1, number + 1):
+        if number % whatever == 0:
+            divider += 1
+    return divider == 2
 
 
 print('Egy beolvasott számról állapítjuk meg, hogy prím-e')
