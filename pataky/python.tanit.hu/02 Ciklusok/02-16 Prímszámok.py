@@ -9,7 +9,9 @@ def is_prime():
     for whatever in range(1, number + 1):
         if number % whatever == 0:
             divider += 1
-    return divider == 2
+        if divider > 2:
+            return False
+    return True
 
 
 print('Egy beolvasott számról állapítjuk meg, hogy prím-e')
