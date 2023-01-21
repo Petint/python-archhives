@@ -13,6 +13,23 @@ A szöveges, minta szerinti cm²-ben számolt kiírást a főprogramban hajtsuk 
 
 Az eredményeket mindkét esetben 2 tizedesre kerekítsük.
 """
+import math
 
-print('Egy egyenlő oldalú háromszög oldalhosszát kérjük be\nés kiírjuk a kerületét cm-ben és a területét cm²-ben.')
 
+def main():
+    print('Egy egyenlő oldalú háromszög oldalhosszát kérjük be\nés kiírjuk a kerületét cm-ben és a területét cm²-ben.')
+    side = float(input('Add meg az egyik oldalhosszát cm-ben:'))
+    kerulet(side)
+    print('Az egyenlő oldalú háromszög területe: %.2f cm²' % (terulet(side)))
+
+
+def kerulet(oldal):
+    print('Az egyenlő oldalú háromszög kerülete: %.2f cm' % (3 * oldal))
+
+
+def terulet(side):
+    return side * (math.sqrt(3) * side / 2) / 2
+
+
+if __name__ == '__main__':
+    main()
