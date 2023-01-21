@@ -9,6 +9,7 @@ Tölts fel egy 100 elemű listát háromjegyű véletlen egész számokkal és �
 """
 from random import randint
 
+print('Egy véletlenszerű háromjegyű egész számokból álló 100 tagú lista külömböző elemeit írjuk ki.')
 length_of_list = 100
 data = [randint(100, 999) for _ in range(length_of_list)]
 print(f"""
