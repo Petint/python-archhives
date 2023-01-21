@@ -6,6 +6,7 @@ művelet;1. opció;2. opció;3. opció;a helyes megoldás száma
 Olvassuk be a felhasználó válaszát, azaz a tippelt helyes válasz számát. Ha nem 1, 2 vagy 3 választ ad, akkor írjuk ki, hogy nincs ilyen választási lehetőség.
 Ha megadta az 1, 2 vagy 3-t mint választ, akkor írjuk ki, hogy helyes vagy helytelen a válasz. Helytelen válasz esetén írjuk ki azt is, hogy mi lett vona a helyes.
 """
+from random import sample
 
 
 def get_questions(file_name: str):
@@ -32,7 +33,7 @@ def ask(question):
 def main():
     questions = get_questions('python-teszt.txt')
     score = 0
-    for question in questions:
+    for question in sample(questions, k=len(questions)):
         score += ask(question)[0]
     print()
     print(score, ' Pontot értél el.')
