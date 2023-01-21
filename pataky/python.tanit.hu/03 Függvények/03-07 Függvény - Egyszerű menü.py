@@ -1,12 +1,12 @@
 """
-Feladat leírás:
 Olvassunk be egy szöveget.
 Kérdezzük meg a felhasználót, hogy mit szeretne:
 a) Kiírjuk hány 'a' betű van a szövegben
 b) Kiírjuk a szöveg hosszát
 c) Kiírjuk a szöveg nagybetűs változatát
+
 Addig ismételjük a fentebb írtakat, amíg üres szöveget nem ad meg a felhasználó.
-Egy lehetséges megoldást itt találsz.
+Mind a három feladatot (a, b, c) saját külön függvényekkel oldjunk meg.
 """
 
 
