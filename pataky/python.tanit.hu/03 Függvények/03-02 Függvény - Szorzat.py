@@ -10,6 +10,6 @@ def szorzat(a: int, b: int) -> int:
 
 if __name__ == '__main__':
     print('Egy függvényt tesztelünk, amely két szám szorzatát adja vissza eredményül.')
-    aa = int(input("Adj meg egy számot> "))
-    bb = int(input("Adj meg egy számot> "))
+    aa = int(input("Adj meg egy számot>"))
+    bb = int(input("Adj meg egy számot>"))
     print(szorzat(aa, bb))
