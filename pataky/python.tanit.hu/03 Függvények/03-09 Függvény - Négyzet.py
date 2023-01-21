@@ -12,3 +12,18 @@ A szöveges, minta szerinti cm²-ben számolt kiírást a főprogramban hajtsuk 
 
 Az eredményeket mindkét esetben 2 tizedesre kerekítsük.
 """
+
+
+def kerulet(a):
+    print('A négyzet kerülete:', round(4 * a, 2), 'cm')
+
+
+def felulet(a):
+    return a ** 2
+
+
+if __name__ == '__main__':
+    print('Egy négyzet keruletet es feluletet fogjuk meghatarozni.')
+    sugar = float(input('Add meg a negyzet egyik oldalának hosszát:').replace(',', '.'))
+    kerulet(sugar)
+    print('A négyzet területe: %.2f cm²' % (felulet(sugar)))

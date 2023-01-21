@@ -23,7 +23,8 @@ def felulet(r: float) -> float:
     return (r ** 2) * pi
 
 
-print('Egy kor keruletet es feluletet fogjuk meghatarozni.')
-sugar = float(input('Add meg a kor sugarat: ').replace(',', '.'))
-kerulet(sugar)
-print('A kor felulete: %fcm2' % (felulet(sugar)))
+if __name__ == '__main__':
+    print('Egy kor keruletet es feluletet fogjuk meghatarozni.')
+    sugar = float(input('Add meg a kor sugarat: ').replace(',', '.'))
+    kerulet(sugar)
+    print('A kor felulete: %.2f cm²' % (felulet(sugar)))
