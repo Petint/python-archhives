@@ -17,11 +17,19 @@ def prim_osztok(number):
     return True
 
 
+def harom_hatvany(number):
+    if number % 3 == 0:
+        return True
+    else:
+        return False
+
+
+
 def main():
     lista = [123, 57, 8, 16, 29, 125, 81, 64, 127, 82]
     print('Egy lista elemeiről állapítjuk meg, hogy prímek-e vagy három hatványai.')
     for user_number in lista:
-        print(user_number, ' - prím szám' if prim_osztok(user_number) else ' ', sep='')
+        print(f'{user_number} - prím szám' if prim_osztok(user_number) else (f'{user_number} - három hatványa' if harom_hatvany(user_number) else user_number), sep='')
 
 
 if __name__ == '__main__':
