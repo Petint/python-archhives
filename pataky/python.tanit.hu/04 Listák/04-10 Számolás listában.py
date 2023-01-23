@@ -25,3 +25,13 @@ Balogh Edina*26*Budapest
 Németh Kamilla*19*Debrecen
 Fekete Géza*18*Pécs
 """
+
+dataList = dataList.splitlines()
+dataList = (data.split('*') for data in dataList)
+next(dataList)
+# [print(data) for data in dataList]
+valid_people = 0
+for name, age, city in dataList:
+    if age > 20 and city == 'Budapest':
+        valid_people += 1
+print(f'Összesen {valid_people} Budapesti, 20 év feletti van a listában.')
