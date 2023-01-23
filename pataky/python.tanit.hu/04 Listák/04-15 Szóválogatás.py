@@ -104,6 +104,8 @@ def main():
     length = int(input('\nAdd meg a keresett szavak hosszát (9-21):'))
     candidates = (word for word in szavak if check_length(word, length))
     candidates = (word for word in candidates if does_contain(word, letters))
+    print('Ezekre a szavakra gondolhattál:')
+    [print(word) for word in candidates]
 
 
 if __name__ == '__main__':
