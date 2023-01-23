@@ -11,64 +11,64 @@ A 2. feladattól kezdve a függvények bemenő paramétere a lista, visszatéré
 """
 
 
-def user_get(length: int) -> 'list[int]':
-    nums = []
-    while len(nums) < 5:
+def user_get(length: int) -> list:
+    numbers = []
+    while len(numbers) < 5:
         try:
             n = int(input("Adj meg egy egész számot: "))
         except ValueError:
             print("Nem (megfelelő) számot adtál meg.")
         else:
-            nums.append(n)
-    return nums
+            numbers.append(n)
+    return numbers
 
 
-def pdat(datalist: 'list[int]'):
-    for data in datalist:
-        print(data, end='-')
+def data_print(data_list: list):
+    for _data in data_list:
+        print(_data, end='-')
     print('')
 
 
-def rev(_input: 'list[int]') -> 'list[int]':
+def reverse(input_data: list) -> list:
     _output = []
-    for l in range(len(_input) - 1, -1, -1):
-        _output.append(_input[l])
+    for i, _ in enumerate(input_data):
+        _output.append(input_data[i * -1])
     return _output
 
 
-def getmin(_input: 'list[int]'):
-    mp = 0
-    min = _input[0]
-    for i in range(len(_input)):
-        if _input[i] < min:
-            min, mp = _input[i], i
-    print(f"A legkisebb elem: {min}\nA helye: {mp + 1}")
+def getmin(input_data: list):
+    max_point = 0
+    smallest = input_data[0]
+    for i in range(len(input_data)):
+        if input_data[i] < smallest:
+            smallest, max_point = input_data[i], i
+    print(f"A legkisebb elem: {smallest}\nA helye: {max_point + 1}")
 
 
-def getmax(_input: 'list[int]'):
-    mp = 0
-    _max = _input[0]
-    for i in range(len(_input)):
-        if _input[i] > _max:
-            _max, mp = _input[i], i
-    print(f"A legnagyobb elem: {_max}\nA helye: {mp + 1}")
+def getmax(input_data: list):
+    max_point = 0
+    _max = input_data[0]
+    for i in range(len(input_data)):
+        if input_data[i] > _max:
+            _max, max_point = input_data[i], i
+    print(f"A legnagyobb elem: {_max}\nA helye: {max_point + 1}")
 
 
-def getavrg(_inout: 'list[int]'):
-    avrg = sum(_inout) // len(_inout)
-    print(avrg)
+def get_average(_inout: list):
+    average = sum(_inout) // len(_inout)
+    print(average)
     # Unlocked new ability: list.index()
     try:
-        avrp = _inout.index(avrg)
+        average_position = _inout.index(average)
     except ValueError:
-        avrg = min(_inout, key=lambda x: abs(x - avrg))
-        avrp = _inout.index(avrg)
-    print(f'A lista átlagához legközelebbi érték: {avrg}\nA helye: {avrp + 1}')
+        average = min(_inout, key=lambda x: abs(x - average))
+        average_position = _inout.index(average)
+    print(f'A lista átlagához legközelebbi érték: {average}\nA helye: {average_position + 1}')
 
 
 data = user_get(5)
-pdat(data)
-pdat(rev(data))
+data_print(data)
+data_print(reverse(data))
 getmin(data)
 getmax(data)
-getavrg(data)
+get_average(data)

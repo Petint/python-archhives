@@ -25,10 +25,10 @@ Szabados Attila\t25\tDebrecen
 """Ebből a listából programmal számold meg hány debreceni van.
 A program akkor is helyesen működjön, ha az adatlista módosul."""
 
-debre_people = 0
+debrecen_people = 0
 for ppl in dataList.splitlines()[1:]:
     nev, kor, city = ppl.split('\t')
     # print(nev, kor, city)
     if city == 'Debrecen':
-        debre_people += 1
-print(f'{debre_people} Debreceni talalhato',)
+        debrecen_people += 1
+print(f'{debrecen_people} Debreceni talalhato', )

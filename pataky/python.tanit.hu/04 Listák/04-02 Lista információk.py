@@ -22,8 +22,8 @@ for i in range(itemCount):
     newItem = randint(1, 20)  # Generálunk egy új véletlen egész számot
     data.append(newItem)  # Felvesszük a listába az új elemet
 
-print(
-    'Egy véletlenszerű számokból álló lista elemiről írunk ki információkat.')  # Tájékoztatjuk a felhasználót, hogy hogyan működik a program
+print('Egy véletlenszerű számokból álló lista elemiről írunk ki információkat.')
+# Tájékoztatjuk a felhasználót, hogy hogyan működik a program
 print("A 'data' lista tartalma: ", data)  # Kiírjuk a lista tartalmát
 # Kiírjuk a kért információkat
 print(f"""

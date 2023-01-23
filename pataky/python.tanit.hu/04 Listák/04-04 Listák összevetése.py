@@ -29,6 +29,6 @@ print(f"Az első eltérő elem: {x + 1}")
 print('A \'data1\' lista', end=' ') if data1.count(10) > data2.count(10) else print("A \'data2\' lista", end=' ')
 print("tőbb 10-et tartalmaz a másiknál.")
 
-avg1, avg2 = sum(data1) / len(data1), sum(data2) / len(data2)
-print('A \'data1\' listának', end=' ') if avg1 > avg2 else print("A \'data2\' listának", end=' ')
+average1, average2 = sum(data1) / len(data1), sum(data2) / len(data2)
+print('A \'data1\' listának', end=' ') if average1 > average2 else print("A \'data2\' listának", end=' ')
 print("magasabb átlaga van a másiknál.")
