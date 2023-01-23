@@ -90,11 +90,20 @@ def check_length(word: str, desired_length: int):
     return len(word) == desired_length
 
 
+def does_contain(search_word, letters_to_find):
+    letter_count = 0
+    for letter in letters_to_find:
+        if letter in search_word:
+            letter_count += 1
+    return letter_count == 3
+
+
 def main():
     print('Magyar szavak között keresünk adott hosszúsagút, amelyben szerepel három megadott betű.\n')
     letters = input('Adj meg három betűt:')
     length = int(input('\nAdd meg a keresett szavak hosszát (9-21):'))
     candidates = (word for word in szavak if check_length(word, length))
+    candidates = (word for word in candidates if does_contain(word, letters))
 
 
 if __name__ == '__main__':
