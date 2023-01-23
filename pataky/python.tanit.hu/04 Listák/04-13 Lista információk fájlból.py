@@ -40,16 +40,6 @@ for row in file.read().splitlines():
 file.close()
 
 
-# def legfiatalabb(dta: 'list[list]'):
-#     mini = dta[0][1]
-#     for x in dta:
-#         if x[1] < mini:
-#             mini = x[1]
-#     # x = dta.index(mini)
-# 
-#     return mini
-
-
 def getmin(_input: 'list[list]'):
     mini = min(_input)
     print(f"A legfiatalabb: {mini[0]}, született: {mini[1]}, Lakhelye: {mini[2]}")

@@ -25,3 +25,12 @@ Nagy Ibolya;23;Pécs
 Horváth Ferenc;17;Budapest
 Balogh Edina;26;Budapest
 """
+dataList = dataList.splitlines()
+dataList = (data.split(';') for data in dataList)
+next(dataList)
+# [print(data) for data in dataList]
+oldest = ['None', '-1', 'None']
+for person in dataList:
+    if person[1] > oldest[1] and person[2] == 'Budapest':
+        oldest = person
+print(f'A legidősebb {oldest[2]}i: {oldest[0]}, életkora: {oldest[1]}')
