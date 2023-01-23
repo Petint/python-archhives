@@ -85,3 +85,17 @@ szavak = ['adminisztráció', 'aggodalmaskodik', 'akadékoskodik', 'akaratnyilv�
 
 # Itt folytassuk a program írását
 
+
+def check_length(word: str, desired_length: int):
+    return len(word) == desired_length
+
+
+def main():
+    print('Magyar szavak között keresünk adott hosszúsagút, amelyben szerepel három megadott betű.\n')
+    letters = input('Adj meg három betűt:')
+    length = int(input('\nAdd meg a keresett szavak hosszát (9-21):'))
+    candidates = (word for word in szavak if check_length(word, length))
+
+
+if __name__ == '__main__':
+    main()
