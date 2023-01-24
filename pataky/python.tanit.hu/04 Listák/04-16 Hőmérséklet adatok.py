@@ -25,13 +25,13 @@ https://www.met.hu/eghajlat/magyarorszag_eghajlata/eghajlati_adatsorok/Budapest/
 def beolvas(input_file=None):
     temperatures_file = open(input_file, 'rt', encoding='UTF-8')
     temperatures = (line for line in temperatures_file)
-    return (line.split(';') for line in temperatures)
+    temperatures = (line.split(';') for line in temperatures)
+    return list(temperatures)
 
 
 def main():
     tempatures = beolvas('BP_homerseklet.txt')
-    for day in tempatures:
-        print(day)
+    print(len(tempatures))
 
 
 if __name__ == '__main__':
