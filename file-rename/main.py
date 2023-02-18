@@ -16,7 +16,7 @@ def main():
         for title in titles:
             new_title = get_new_title(title)
             print(title, new_title, sep=' --> ')
-            os.rename(os.join('./Sonic Boom', title), (os.join('./Sonic Boom', new_title+'.mp4'))
+            os.rename(os.path.join('./Sonic Boom', title), os.path.join('./Sonic Boom', new_title+'.mp4'))
 
 
 if __name__ == '__main__':
