@@ -2,10 +2,10 @@ import os
 
 
 def get_new_title(title):
-    _new_title = title[0] + title[1]
-    _new_title += ' ' + title[-1]
+    _new_title = 'Sonic Boom '
+    _new_title += ' episode ' + title[-2]
     _new_title += ' - '
-    for ttl in title[3:-5]:
+    for ttl in title[3:-4]:
         _new_title += ' ' + ttl
     return _new_title
 
