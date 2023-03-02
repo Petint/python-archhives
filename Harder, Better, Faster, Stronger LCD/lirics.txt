@@ -4,7 +4,7 @@
 PLAY??1
 ??0
 ??0
-??51
+|??51
 Work it??1
 Make it??1
 Do it??1
@@ -29,59 +29,59 @@ Harder??1
 Better??1
 Faster??1
 Stronger??5
-Work it harder, make it better??1
+Work it harder, make it better??2
 Do it faster, makes us stronger??5
-More than ever, hour after hour??1
+More than ever, hour after hour??2
 Work is never over??5
-Work it harder, make it better??1
-Do it faster, makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it harder, make it better??1
-Do it faster, makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it harder, make it better??1
-Do it faster, makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it harder, make it better??1
-Do it faster, makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??10
-Work it harder, make it better??1
-Do it faster, makes us??1
-More than ever hour after hour??1
-Work is never over??1
-Work it harder, make it better??1
-Do it faster, makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it harder, make it??1
-Do it faster, makes us??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it harder, make it better??1
-Do it faster, makes us strong??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it, make it better??1
-Do it faster makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it, make it better??1
-Do it faster makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it, make it better??1
-Do it faster makes us stronger??1
-More than ever, hour after hour??1
-Work is never over??1
-Work it harder??1
-Do it faster??1
-More than ever, hour??1
-Work is never over??1
-Work it harder, make it better??1
-Do it faster makes us stronger??1
-More than ever hour after hour??1
-Work is never over??1
+Work it harder, make it better??2
+Do it faster, makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it harder, make it better??2
+Do it faster, makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it harder, make it better??2
+Do it faster, makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it harder, make it better??2
+Do it faster, makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??5
+Work it harder, make it better??2
+Do it faster, makes us??2
+More than ever hour after hour??2
+Work is never over??2
+Work it harder, make it better??2
+Do it faster, makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it harder, make it??2
+Do it faster, makes us??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it harder, make it better??2
+Do it faster, makes us strong??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it, make it better??2
+Do it faster makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it, make it better??2
+Do it faster makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it, make it better??2
+Do it faster makes us stronger??2
+More than ever, hour after hour??2
+Work is never over??2
+Work it harder??2
+Do it faster??2
+More than ever, hour??2
+Work is never over??2
+Work it harder, make it better??2
+Do it faster makes us stronger??2
+More than ever hour after hour??2
+Work is never over??2
