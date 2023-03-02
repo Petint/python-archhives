@@ -1,21 +1,22 @@
-Work it
-Make it
-Do it
-Makes us
-Harder
-Better
-Faster
-Stronger
-More than
-Hour
-Hour
-Never
-Ever
-After
-Work is
-Over
-Work it
-Make it
+,51
+Work it,1
+Make it,1
+Do it,1
+Makes us,5
+Harder,1
+Better,1
+Faster,1
+Stronger,5
+More than,1
+Hour,1
+Hour,1
+Never,1
+Ever,1
+After,1
+Work is,1
+Over,1
+Work it,1
+Make it,1
 Do it
 Makes us
 Harder
