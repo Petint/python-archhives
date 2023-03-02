@@ -1,0 +1,16 @@
+import datetime
+import serial
+
+
+def main():
+    tty = serial.Serial('COM5', 9600)
+    tty.write(b'0')
+    screen = datetime.datetime.now().strftime("%Y-%M-%D %H:%M").strip("/02/23")
+    screen += " " * 60 + 'a'
+    tty.write(bytes(screen, encoding='UTF-8'))
+    print(screen)
+    tty.close()
+
+
+if __name__ == '__main__':
+    main()
