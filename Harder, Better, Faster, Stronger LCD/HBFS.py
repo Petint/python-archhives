@@ -1,12 +1,12 @@
 import time
-# import Serial
+import serial
 
 
 def main():
-    # tty = Serial.Serial('COM5',9600)
+    tty = serial.Serial('COM5',9600)
     lirics_file = open("lirics.txt", 'rt')
     for line in lirics_file:
-        print(line.strip('\n'))
+        tty.write(line.strip('\n'))
         time.sleep(1)
     lirics_file.close()
 
