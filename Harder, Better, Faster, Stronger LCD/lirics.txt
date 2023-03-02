@@ -6,7 +6,7 @@ Makes us,5
 Harder,1
 Better,1
 Faster,1
-Stronger,5
+Stronger,4
 More than,1
 Hour,1
 Hour,1
@@ -18,64 +18,64 @@ Over,1
 Work it,1
 Make it,1
 Do it
-Makes us
-Harder
-Better
-Faster
-Stronger
-Work it harder, make it better
-Do it faster, makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us
-More than ever hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder, make it
-Do it faster, makes us
-More than ever, hour after hour
-Work is never over
-Work it harder, make it better
-Do it faster, makes us strong
-More than ever, hour after hour
-Work is never over
-Work it, make it better
-Do it faster makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it, make it better
-Do it faster makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it, make it better
-Do it faster makes us stronger
-More than ever, hour after hour
-Work is never over
-Work it harder
-Do it faster
-More than ever, hour
-Work is never over
-Work it harder, make it better
-Do it faster makes us stronger
-More than ever hour after hour
-Work is never over
+Makes us,5
+Harder,1
+Better,1
+Faster,1
+Stronger,5
+Work it harder, make it better,1
+Do it faster, makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster, makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster, makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster, makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster, makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,10
+Work it harder, make it better,1
+Do it faster, makes us,1
+More than ever hour after hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster, makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder, make it,1
+Do it faster, makes us,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster, makes us strong,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it, make it better,1
+Do it faster makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it, make it better,1
+Do it faster makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it, make it better,1
+Do it faster makes us stronger,1
+More than ever, hour after hour,1
+Work is never over,1
+Work it harder,1
+Do it faster,1
+More than ever, hour,1
+Work is never over,1
+Work it harder, make it better,1
+Do it faster makes us stronger,1
+More than ever hour after hour,1
+Work is never over,1
