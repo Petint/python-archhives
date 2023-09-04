@@ -3,7 +3,7 @@ import serial
 
 
 def main():
-    tty = serial.Serial('COM5',9600)
+    tty = serial.Serial('COM1',9600)
     lirics_file = open("lirics.txt", 'rt')
     for line in lirics_file.read().splitlines():
         line, line_time = line.split('??')
